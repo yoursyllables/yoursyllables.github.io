@@ -6,7 +6,34 @@
         <description>Recent content in 语言学 on 迷の小屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Thu, 09 Mar 2023 14:15:31 +0000</lastBuildDate><atom:link href="https://yoursyllables.github.io/categories/%E8%AF%AD%E8%A8%80%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Sun, 02 Apr 2023 21:42:10 +0800</lastBuildDate><atom:link href="https://yoursyllables.github.io/categories/%E8%AF%AD%E8%A8%80%E5%AD%A6/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>面向二次元的日语入门</title>
+        <link>https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E5%AD%A6/japanese/</link>
+        <pubDate>Sun, 02 Apr 2023 21:42:10 +0800</pubDate>
+        
+        <guid>https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E5%AD%A6/japanese/</guid>
+        <description>&lt;p&gt;米娜桑好鸭。
+众所周知，身为一个老二次元，学习象征着文化的语言几乎是不可避免的。然而市面上的相关教材总是不尽人意：起点过低的教材讲述琐碎(e.g.标准日本语)，预设太多的教材令人无从下手(masayoshi)。
+本文的诞生正是基于这样的立场：写给那些已经摄入了一部分语料的&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;，想要建立起一套语法规范的人。换句话说也就是觉得自己对言语“一知半解”的人的快速入门札记。&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;那么，我们开始吧！&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;因为你的素养很差，我现在每天看动漫都能获得24分钟的语料，每个月差不多750+的外语经验， 也就是现实生活中每个月750+的思考水平，换算过来最少也相当于5000h+的学习过程，虽然我只有18岁，但是已经超越了中国绝大多数人(包括你)的水平，这便是日本动漫给我的骄傲的资本。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h1 id=&#34;零&#34;&gt;零&lt;/h1&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;是动漫喵&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;当然,如果有一点语言学基础的话就更好啦w&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>语言问题</title>
         <link>https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E5%AD%A6/%E8%AF%AD%E8%A8%80%E9%97%AE%E9%A2%98/</link>
         <pubDate>Thu, 09 Mar 2023 14:15:31 +0000</pubDate>
@@ -26,7 +53,7 @@
 &lt;p&gt;我们平常接触的大多数语音是肺部发出的音（肺音？），气流从喉部经过声带(&lt;strong&gt;vocal folds&lt;/strong&gt;)，直达口腔(&lt;strong&gt;oral cavity&lt;/strong&gt;)或者鼻腔(&lt;strong&gt;nasal cavity&lt;/strong&gt;)&lt;/p&gt;
 &lt;p&gt;这里，我们可以初步分出两类&lt;strong&gt;调音方式&lt;/strong&gt;：声带振动与否，以及产生共鸣的腔体。&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
-&lt;p&gt;**辅音（consonant）&lt;strong&gt;是气流受到阻碍时发出的音。这类音往往持续时间很短；相反&lt;/strong&gt;元音(vowel)**则是气流不受阻碍时发出的（乐）音。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;辅音（consonant&lt;/strong&gt;)是气流受到阻碍时发出的音。这类音往往持续时间很短；相反**元音(vowel)**则是气流不受阻碍时发出的（乐）音。&lt;/p&gt;
 &lt;h3 id=&#34;单音&#34;&gt;单音&lt;/h3&gt;
 &lt;h4 id=&#34;consonant&#34;&gt;consonant&lt;/h4&gt;
 &lt;p&gt;在口腔内部，舌头是主动的调音部位，齿龈、腭以及小舌是被动的&lt;strong&gt;调音部位。&lt;/strong&gt;&lt;/p&gt;
@@ -42,7 +69,14 @@
 &lt;p&gt;‍&lt;/p&gt;
 &lt;h4 id=&#34;vowel&#34;&gt;vowel&lt;/h4&gt;
 &lt;p&gt;元音由舌位的高低(中)、前后(央)，以及唇形(平圆)确定。&lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
+&lt;p&gt;&lt;img src=&#34;https://yoursyllables.github.io/img/vowel.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;不同舌位的练习‍也就是要从生理层面考虑不同受力点，舌位的前后也就是施力部位（舌尖和舌面）的区别。由于舌头是一个整体，舌面或舌根的移动当然会伴随着口腔内部的移动，往往越靠后的元音越会伴随着唇形的变圆。&lt;/p&gt;
 &lt;p&gt;值得练习的cardinal vowels（基础元音？）有：[i] [e] [ɛ] [a] [ɑ] [ɔ] [o] [u]&lt;/p&gt;
 &lt;p&gt;另外的音还有英语中常出现的“短i”[ɪ]（与&amp;quot;长i&amp;quot;[i]相比）&lt;/p&gt;
@@ -52,14 +86,7 @@
 &lt;p&gt;在这一范畴，我们有&lt;strong&gt;塞擦音(Affricative)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;怎么确定一个音是否不可再分呢？一个判断的方法是对其进行反演变换，若倒放后的音不保持波形图不变，那么这个音就可以被分解成更小的音。&lt;/p&gt;
 &lt;p&gt;比如对音节[ʦa]倒放，其语音是[ast]，听觉上能感受到摩擦和爆破的先后顺序。&lt;/p&gt;
-&lt;p&gt;另外，**送气音(aspiration)**是一个复杂的现象，它不是某一个音的属性（比如音调），当我们发一个清音时，[pa]，发音和声带振动是同一时间进行的，而发浊音[ba]时，声带提前振动。而发送气时，发完辅音的约&lt;img src=&#34;https://www.yuque.com/api/services/graph/generate_redirect/latex?%5Cfrac%7B1%7D%7B20%7D#card=math&amp;amp;code=%5Cfrac%7B1%7D%7B20%7D&amp;amp;id=FAAmm&#34;
-	
-	
-	
-	loading=&#34;lazy&#34;
-	
-	
-&gt;s后声带才开始振动。中间是会有气流的。这也是为什么送气音会用喉音[h]作为上标来记录。&lt;/p&gt;
+&lt;p&gt;另外，**送气音(aspiration)**是一个复杂的现象，它不是某一个音的属性（比如音调），当我们发一个清音时，[pa]，发音和声带振动是同一时间进行的，而发浊音[ba]时，声带提前振动。而发送气时，发完辅音的约$\frac{1}{20}$s后声带才开始振动。中间是会有气流的。这也是为什么送气音会用喉音[h]作为上标来记录。&lt;/p&gt;
 &lt;p&gt;因此，[pʰa]的倒放更像是[aɸp]&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
