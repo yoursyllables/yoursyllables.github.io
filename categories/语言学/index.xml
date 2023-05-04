@@ -12,8 +12,7 @@
         <pubDate>Thu, 09 Mar 2023 14:15:31 +0000</pubDate>
         
         <guid>https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E5%AD%A6/%E8%AF%AD%E8%A8%80%E9%97%AE%E9%A2%98/</guid>
-        <description>&lt;h1 id=&#34;语言问题&#34;&gt;语言问题&lt;/h1&gt;
-&lt;p&gt;赵元任教授以口语般的讲述方式，极其亲切地对语言学的各领域做了一次简述，内容之广度甚至延申到了相关的信号学、声学，无愧于书名“语言问题”。&lt;/p&gt;
+        <description>&lt;p&gt;赵元任教授以口语般的讲述方式，极其亲切地对语言学的各领域做了一次简述，内容之广度甚至延申到了相关的信号学、声学，无愧于书名“语言问题”。&lt;/p&gt;
 &lt;p&gt;这篇笔记的内容只限于语言的部分，即语言学导论的部分，还参考了其他一些导论。（如An Introduction to Language (Victoria Fromkin）
 未记录的书中如符号学、汉语历史等内容，读者可自行阅读。&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
@@ -30,13 +29,25 @@
 &lt;h3 id=&#34;单音&#34;&gt;单音&lt;/h3&gt;
 &lt;h4 id=&#34;consonant&#34;&gt;consonant&lt;/h4&gt;
 &lt;p&gt;在口腔内部，舌头是主动的调音部位，齿龈、腭以及小舌是被动的&lt;strong&gt;调音部位。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;口腔内的&lt;strong&gt;调音方式&lt;/strong&gt;有：
-成阻时，气流完全受到阻碍，所发出的音 &lt;strong&gt;塞音（plosive）&lt;/strong&gt;
-气流不完全受阻，通过调音部位之间的窄缝发生摩擦，得到&lt;strong&gt;擦音(fricative)&lt;/strong&gt;
-（对于舌尖音，这时如果气流较强，会使得舌头发生振动，即与调音部位反复碰撞，产生&lt;strong&gt;颤音(trill)&lt;/strong&gt;）
-气流不完全受阻，从舌头两旁而非中间发出，形成&lt;strong&gt;边音（lateral）&lt;/strong&gt;
-调音部位之间缝隙较宽，产生&lt;strong&gt;近音（approximent）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;口腔内的&lt;strong&gt;调音方式&lt;/strong&gt;有：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;成阻时，气流完全受到阻碍，所发出的音 &lt;strong&gt;塞音（plosive）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;气流不完全受阻，通过调音部位之间的窄缝发生摩擦，得到&lt;strong&gt;擦音(fricative)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（对于舌尖音，这时如果气流较强，会使得舌头发生振动，即与调音部位反复碰撞，产生&lt;strong&gt;颤音(trill)&lt;/strong&gt;）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;气流不完全受阻，从舌头两旁而非中间发出，形成&lt;strong&gt;边音（lateral）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;调音部位之间缝隙较宽，产生&lt;strong&gt;近音（approximent）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;口腔关闭，气流通过鼻腔成阻，发出&lt;strong&gt;鼻音（nasal）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;各辅音可以调音部位和调音方式的矩阵确定。&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
@@ -51,21 +62,24 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;不同舌位的练习‍也就是要从生理层面考虑不同受力点，舌位的前后也就是施力部位（舌尖和舌面）的区别。由于舌头是一个整体，舌面或舌根的移动当然会伴随着口腔内部的移动，往往越靠后的元音越会伴随着唇形的变圆。&lt;/p&gt;
-&lt;p&gt;值得练习的cardinal vowels（基础元音？）有：[i] [e] [ɛ] [a] [ɑ] [ɔ] [o] [u]&lt;/p&gt;
+&lt;p&gt;值得练习的cardinal vowels（基础元音？）有：[i] [e] [ɛ] [a] [ɑ] [ɔ] [o] [u]  &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;另外的音还有英语中常出现的“短i”[ɪ]（与&amp;quot;长i&amp;quot;[i]相比）&lt;/p&gt;
-&lt;p&gt;还有一个出现频率非常高的中央元音[ə]，以至于有一个词**(schwa)**来描述它。&lt;/p&gt;
+&lt;p&gt;还有一个出现频率非常高的中央元音[ə]，以至于有一个词 &lt;strong&gt;(schwa)&lt;/strong&gt; 来描述它。&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;h3 id=&#34;复合音&#34;&gt;复合音&lt;/h3&gt;
 &lt;p&gt;在这一范畴，我们有&lt;strong&gt;塞擦音(Affricative)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;怎么确定一个音是否不可再分呢？一个判断的方法是对其进行反演变换，若倒放后的音不保持波形图不变，那么这个音就可以被分解成更小的音。&lt;/p&gt;
 &lt;p&gt;比如对音节[ʦa]倒放，其语音是[ast]，听觉上能感受到摩擦和爆破的先后顺序。&lt;/p&gt;
-&lt;p&gt;另外，**送气音(aspiration)**是一个复杂的现象，它不是某一个音的属性（比如音调），当我们发一个清音时，[pa]，发音和声带振动是同一时间进行的，而发浊音[ba]时，声带提前振动。而发送气时，发完辅音的约$\frac{1}{20}$s后声带才开始振动。中间是会有气流的。这也是为什么送气音会用喉音[h]作为上标来记录。&lt;/p&gt;
-&lt;p&gt;因此，[pʰa]的倒放更像是[aɸp]&lt;/p&gt;
+&lt;p&gt;另外，&lt;strong&gt;送气音 (aspiration)&lt;/strong&gt; 是一个复杂的现象，它不是某一个音的属性（比如音调），当我们发一个清音时，[pa]，发音和声带振动是同一时间进行的，而发浊音[ba]时，声带提前振动。而发送气时，发完辅音的约$\frac{1}{20}$s后声带才开始振动。中间是会有气流的。这也是为什么送气音会用喉音[h]作为上标来记录。&lt;/p&gt;
+&lt;p&gt;因此，[pʰa]的倒放更像是[aɸp]，而不是~~[apʰ]~~&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;h3 id=&#34;杂谈&#34;&gt;杂谈&lt;/h3&gt;
 &lt;p&gt;在GA中我们经常听到r化元音[ɚ]（舌尖再抬高接近上颚可以得到另一个音）这种记录往往作为一种附加属性，相似的还有其他符号和概念（比如无声除阻），我们会在之后的语音学以及IPA学习中进一步涉及。&lt;/p&gt;
-&lt;p&gt;‍关于语音的练习，可以通过声学的方式辅助，包括用语音学生常用的频谱分析软件Prrat观察自己的语音波形图来纠正语音(尤其是清浊)，使用parametric diagram来记录音段。&lt;/p&gt;
+&lt;p&gt;而关于语音的练习，可以通过声学的方式辅助，包括用语音学生常用的频谱分析软件Prrat观察自己的语音波形图来纠正语音(尤其是清浊)，使用parametric diagram来记录音段。更具体的方法可以参考&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/question/31220918/answer/51178434&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;修读语音学的学生是如何学习语音、训练发音的？ - 知乎 (zhihu.com)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;对于最常识性的IPA符号的练习，我强烈安利这个网站:&lt;a class=&#34;link&#34; href=&#34;https://teaching.ncl.ac.uk/ipa/practical-exercises.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IPA Online - Practical exercises (ncl.ac.uk)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;h2 id=&#34;phonology&#34;&gt;Phonology&lt;/h2&gt;
@@ -188,7 +202,7 @@ rebel/ri&amp;rsquo;bel/动词；rebel/&amp;lsquo;rebl/名词
 &lt;p&gt;我始终相信，在具体的学习实践之前掌握一定的认识论是很有帮助的。在语言学中的认识论首先是：认识到语言的任意性。用索绪尔的话讲就是“能指与所指的关系是完全任意的”。这表明各种言语现象可能是混乱的，但却也有着一种特定的自由：我们无往不处于母语的枷锁中，在学习外语时也会受其影响。我们会未经思考而把既定的音代入外语文字中，而不考虑它们语音和音系属性的区别；我们会囿于汉语文字的表意方式，忽略外语文字的表音属性；有人对于外语的词只能翻译到本国词汇来对应。认识到语言的任意就是要打破母语的这种&amp;quot;既定&amp;quot;的束缚。这也是为什么学习语言往往被认为是打破偏见。可是从另一种层面，脱离惯性、质疑常识本来不就是学习吧？&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;一定程度的认识能够再生产我们对专一化工具的需求，而工具的革新当然能提高效率。语音学的工具是IPA.&lt;/p&gt;
-&lt;p&gt;无论是否用作交流，学习语言应当从语音开始，至少对于所谓大多数文字都是“表音”的语言来说。只学文字的话会忽略大量的信息和娱乐来源（视频、歌曲）。而且，在这之后，匮乏的言语认识往往会限制人对所指(意义)的摄取。就以最常见到的冠词a/the与介词of为例。词的间隔使我们忽略了其在主题中的地位。一段语流中这些语法词是存在是十分短暂的，这启示我们在阅读中也采用相似的略读方法。&lt;/p&gt;
+&lt;p&gt;无论是否用作交流，学习语言应当从语音开始，至少对于所谓大多数文字都是“表音”的语言来说。只学文字的话会忽略大量的信息和娱乐来源（视频、歌曲）。而且，在这之后，匮乏的言语认识往往会限制人对所指(意义)的摄取。就以最常见到的冠词a/the与介词of为例。词的间隔蕴含了一种对称的意味，使我们忽略了其在主题中的地位。然而一段语流中这些语法词是存在是十分短暂的，这启示我们在阅读/听写中也采用相似的略读方法。&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;我想象到的学习顺序是:（学完IPA后）&lt;/p&gt;
 &lt;p&gt;$Orthography \to Phonology\to  Morphology \to Synatx$&lt;/p&gt;
@@ -196,19 +210,34 @@ rebel/ri&amp;rsquo;bel/动词；rebel/&amp;lsquo;rebl/名词
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;练习辅音时，需要注意分别放在元音前后练，这样适应音节的发音。练[rɑ]和[ɑrɑ]，检验音节末的辅音的方式也是发一个元音，看它是否呈现出相同的听感。&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
+&lt;p&gt;另外，在学习外语时参考母语也是有必要的。不是说将母语的映射迁到外语，而是通过「 对比」的方法考察不同文化之间的表意(音)结构&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;。谈到为什么这么做时，我们不会引用弗雷格、维特根斯坦，从而上升到语言哲学的层次：光是能够发现结构之间的相似性就足以发挥作用、振奋人心了。&lt;/p&gt;
+&lt;p&gt;作为参考，推荐阅读&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/260660949&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;汉语拼音与国际音标对照表（简明表格版） - 知乎 (zhihu.com)&lt;/a&gt;，以及各语言的正字法、音系wiki&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;英语中的音系现象是：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;清浊对立&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;轻、重音&lt;/strong&gt;（虽然对立的情况少，但重音弄错可能会让人听不懂）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;连读(linking)&lt;/strong&gt;
 辅音之后的元音是连续的，这与汉语中的音节直接的断裂（有喉音[ʔ]）有区别。&lt;/p&gt;
-&lt;p&gt;另外，法语中的**加连音(liaison）**是指， 一些掉了的音的重新出现的现象。比如pas[pɑ]在连元音（比如encore）后恢复成[pɑz],
+&lt;p&gt;另外，法语中的 &lt;strong&gt;加连音(liaison)&lt;/strong&gt; 是指， 一些掉了的音的重新出现的现象。比如pas[pɑ]在连元音（比如encore）后恢复成[pɑz],
 在英语中比如$one \to a \to an$&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
-&lt;p&gt;还有的比如[t,d,s]遇到[j]时候的颚化[t͡ʃ]&lt;/p&gt;
-&lt;p&gt;‍&lt;/p&gt;
-&lt;p&gt;‍&lt;/p&gt;
-&lt;p&gt;GA和RP之间有一些区别，比如GA中的[ɹ]在英国南部中掉落。&lt;/p&gt;
+&lt;p&gt;还有的比如[t,d,s]遇到[j]时候的颚化[t͡ʃ]；GA和RP之间有一些区别，比如GA中的[ɹ]在英国南部中掉落。&lt;/p&gt;
+&lt;p&gt;未来的我：什么举例嘛，完全就是只写了些特点而不谈方法嘛（大嘘）&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;据说是以最符合法国人音系的标准指定的。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;在英语语流中，几乎所有非重音节中的元音都会弱化成[ə]，算是元音音系广的代价吧。&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;没错，有一项附属学科叫「 比较语言学」&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
         </item>
         

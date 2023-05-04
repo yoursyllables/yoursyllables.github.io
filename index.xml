@@ -6,7 +6,123 @@
         <description>Recent content on 迷の小屋</description>
         <generator>Hugo -- gohugo.io</generator>
         <language>en-us</language>
-        <lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yoursyllables.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yoursyllables.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
+        <title>Tool&amp;Soft</title>
+        <link>https://yoursyllables.github.io/posts/tech/toolsoft/</link>
+        <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+        
+        <guid>https://yoursyllables.github.io/posts/tech/toolsoft/</guid>
+        <description>&lt;img src="https://yoursyllables.github.io/posts/Tech/123415623.png" alt="Featured image of post Tool&amp;Soft" /&gt;&lt;blockquote&gt;
+&lt;p&gt;在生产力当中，虽然劳动过程的当事人在形式上是人，但其中起决定作用的要素并不是人，而是生产资料。
+-Louis Pierre Althusser《Sur la reproduction》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;这篇文章用来记录我常用的工具/软件。&lt;/p&gt;
+&lt;h2 id=&#34;系统&#34;&gt;系统&lt;/h2&gt;
+&lt;h3 id=&#34;默认&#34;&gt;默认&lt;/h3&gt;
+&lt;p&gt;首先是一些不需要赘述的常用软件,用来替换糟糕的国内流氓软件：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;7z&lt;/code&gt;:开源压缩器(同类型的也推荐&lt;code&gt;bandzip&lt;/code&gt;)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;qBittorrent&lt;/code&gt;&lt;/a&gt;:开源p2p下载器,替换迅雷,具有自动追踪tracker和&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/87193566&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;反吸血&lt;/a&gt;的功能。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;code&gt;Internet Download Manager(IDM)&lt;/code&gt;:(付费)下载管理器,通过并行算法增加下载速率。同时其搭配的浏览器扩展可以方便地下载一些网页的媒体资源(youtube)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://www.videolan.org/vlc/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;VLC&lt;/code&gt;&lt;/a&gt;:多媒体播放器&lt;/p&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://potplayer.tv/?lang=zh_CN&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;Potplayer&lt;/code&gt;&lt;/a&gt;:另一款知名播放器。值得一提的是其默认配置较差,更改配置后效果很不错。方法参考知名番剧压制组的教程:&lt;a class=&#34;link&#34; href=&#34;https://vcb-s.com/archives/7228&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;基于 PotPlayer 和 madVR 的播放器教程 | VCB-Studio&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;网盘软件我暂时使用的是&lt;code&gt;Onedrive&lt;/code&gt;和&lt;code&gt;百度云网盘&lt;/code&gt;。前者在使用科学的情况下是理想的同步手段；后者在分享资源方面几乎没有替代&amp;hellip;..&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;h3 id=&#34;效率&#34;&gt;效率&lt;/h3&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://getquicker.net/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;&lt;code&gt;quicker&lt;/code&gt;&lt;/a&gt;：鼠标扩展。它可以把一些常用的操作和脚本(这个是重点)集成到软件面板里，从而简化操作。&lt;/p&gt;
+&lt;p&gt;比如，我可以通过鼠标中键(或者其他什么启动键)打开我常用的视频文件夹、运行一段脚本上传博客的更改（这个有点蠢）,使用软件自带的截图和ocr。另外它有很多扩展动作，包括&lt;code&gt;ctrl+c&lt;/code&gt; 对剪切板内容进行处理(快捷搜图/更改文字格式)；设置文本指令(其实就是snippets);还可以搭配浏览器扩展&lt;a class=&#34;link&#34; href=&#34;https://saladict.crimx.com/&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;沙拉查词&lt;/a&gt;实现在浏览器外的划词翻译。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;utools&lt;/code&gt;：windows系统的spotlight.在本地搜索/启动器的基础上增添了各种功能。键盘党狂喜。&lt;/p&gt;
+&lt;p&gt;搭配quicker之后真正做到了Input hardware所能做到的极致，属于是海陆空全能的软件了。&lt;/p&gt;
+&lt;p&gt;&lt;code&gt;uninstall tool&lt;/code&gt;：用来清理奇奇怪怪的注册表。&lt;/p&gt;
+&lt;h2 id=&#34;管理&#34;&gt;管理&lt;/h2&gt;
+&lt;p&gt;这里是关于一些存储各种数据的工具。&lt;/p&gt;
+&lt;h3 id=&#34;密码管理器&#34;&gt;密码管理器&lt;/h3&gt;
+&lt;p&gt;&lt;code&gt;KeePass&lt;/code&gt;:开源本地密码管理器。基于&lt;strong&gt;极其安全&lt;/strong&gt;的AES256加密算法保存密码。&lt;/p&gt;
+&lt;p&gt;使用浏览器自带的密码记录有一些缺点：首先是其简单的存储方式具有被本地截取的风险&lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;；二是不同浏览器之间的数据难以整合:至少我觉得大家不会只用一个浏览器浏览&lt;del&gt;各种&lt;/del&gt;网站~(￣▽￣)~*༼ つ&lt;/p&gt;
+&lt;p&gt;关于KeePass拓展插件的使用,可以阅读&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/39645975&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;这篇文章&lt;/a&gt;。安卓端可以在google play上下载其他大佬整合的&lt;code&gt;KeePass2Android&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;至于其他的云端管理器比如&lt;code&gt;Bitwarden&lt;/code&gt; 、&lt;code&gt;1Password&lt;/code&gt;等，这里就不作叙述了。&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;h3 id=&#34;电子书&#34;&gt;电子书&lt;/h3&gt;
+&lt;p&gt;因为windows本身的文件管理不尽人意，我用&lt;code&gt;calibre&lt;/code&gt;来存放和整理本地电子书（pdf）&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;它在检索之外还提供了类似豆瓣的功能，支持从各种网络数据库下载元数据（封面、作者、标签等等），在一定程度上有助于辨识图书。&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;p&gt;btw，它的存储格式是真的丑陋。传输pdf的时候最好是用&lt;code&gt;保存到硬盘&lt;/code&gt;选项，否则《无机化学》会变成极其抽象的《wu ji hua xue》&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;p&gt;&lt;img src=&#34;https://yoursyllables.github.io/posts/Tech/calibre.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+		alt=&#34;calibre&#34;
+	
+	
+&gt;&lt;/p&gt;
+&lt;h2 id=&#34;学习&#34;&gt;学习&lt;/h2&gt;
+&lt;h3 id=&#34;阅读&#34;&gt;阅读&lt;/h3&gt;
+&lt;p&gt;由于大部分经典的书籍都是扫描版的形式，导致很多困难（文字模糊、无目录、无法编辑字体）。&lt;sup id=&#34;fnref:4&#34;&gt;&lt;a href=&#34;#fn:4&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;4&lt;/a&gt;&lt;/sup&gt;而&lt;code&gt;adobe acrobat&lt;/code&gt;能提供相关修改功能（图像增强、ocr等），同时也可以满足高亮文本、注释的需求，是一个较完美的一站式pdf阅读软件。&lt;/p&gt;
+&lt;p&gt;数学书的ocr建议使用&lt;code&gt;abbyy&lt;/code&gt;。&lt;/p&gt;
+&lt;p&gt;另外，鉴于acrobat的打开速度和臃肿的体积，我偶尔也使用&lt;code&gt;drawboard pdf&lt;/code&gt; 和&lt;code&gt;sumatra pdf&lt;/code&gt;阅读一些简单的书。前者免费提供了文本编辑的功能，后者是一款开源的极其轻便的阅读软件(仅10m)。&lt;/p&gt;
+&lt;h3 id=&#34;笔记&#34;&gt;笔记&lt;/h3&gt;
+&lt;p&gt;电子笔记显然弥补了纸质笔记的检索和记录的缺点。而主流的双链笔记其实就是在这基础上提供了&lt;a class=&#34;link&#34; href=&#34;https://www.yuque.com/deerain/gannbs/ffqk2e?utm_source=ld246.com#564b719f&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;整理零碎记录&lt;/a&gt;的功能,同时各种记录的链接确实能加深整体的印象。&lt;/p&gt;
+&lt;p&gt;我用的是&lt;code&gt;思源笔记&lt;/code&gt;。它的功能还算够用，和另一款开源笔记&lt;code&gt;obsidian&lt;/code&gt;相比大概就是插件比较少吧&amp;hellip;&lt;/p&gt;
+&lt;h3 id=&#34;anki&#34;&gt;anki&lt;/h3&gt;
+&lt;p&gt;大名鼎鼎的anki应该不用我介绍了喵。一款间隔重复记忆软件，支持手机端。适合闲的没事拿起来刷一会儿。&lt;/p&gt;
+&lt;p&gt;最主要的问题是将anki与日常学习流关联起来。这时我推荐&lt;a class=&#34;link&#34; href=&#34;https://github.com/Clouder0/AnkiSiyuan&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;ankisiyuan&lt;/a&gt;，将笔记的内容制作成卡片导入anki。在外语方面我也推荐番茄查词，生词本可以方便地导入anki&lt;/p&gt;
+&lt;h2 id=&#34;专业&#34;&gt;专业&lt;/h2&gt;
+&lt;h3 id=&#34;文本编辑&#34;&gt;文本编辑&lt;/h3&gt;
+&lt;p&gt;前面的软件已经可以满足大部分需求了，不过身为理工科人总会面对写代码这件事。万幸的是，咱不会涉及到很复杂的像虚拟机、linux之类的东东。(应该&amp;hellip;..吧？)&lt;sup id=&#34;fnref:5&#34;&gt;&lt;a href=&#34;#fn:5&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;5&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;我使用的文本编辑器是&lt;code&gt;vscode&lt;/code&gt;，搭配vim和gitlen插件能舒适地完成大部分工作。&lt;/p&gt;
+&lt;p&gt;一些简单的记录和富文字的社科笔记可以在typora和思源笔记中完成，然鹅面对大量的数学公式，LaTeX比markdown更能适应和实现文章的排版。&lt;/p&gt;
+&lt;p&gt;通过配置texlive后，我大部分的数学笔记是在vscode中完成的。毕竟没有什么比自己写pdf更能理解数学的了（笑）&lt;/p&gt;
+&lt;h3 id=&#34;科学计算&#34;&gt;科学计算&lt;/h3&gt;
+&lt;p&gt;令人头疼的长latex公式是阻碍思考的东西。&lt;code&gt;MathType&lt;/code&gt;可以相对快速地完成这样的操作。不过鉴于vim宏设置也能简化输入，而且重复在vscode和MathType之间切换也挺麻烦的。直接用vim或者vscode里的快照插件应该是更好的选择。 &lt;sup id=&#34;fnref:6&#34;&gt;&lt;a href=&#34;#fn:6&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;6&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
+&lt;p&gt;最后，建模和计算软件也是刚需，在&lt;code&gt;MATLAB&lt;/code&gt;和&lt;code&gt;Mathematica&lt;/code&gt;中总得选一个。我选后者，因为&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/136542995&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;树桑也在用&lt;/a&gt;。&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;例如在管理员权限下中病毒有可能直接通过windows获取edge密码&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;买不起服务器呜呜呜&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;当然它也可以用来存放漫画。比如当个本子库什么的(不是)&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:4&#34;&gt;
+&lt;p&gt;&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/357015750&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;如何处理一本pdf书籍(去水印,ocr,图像增强文档瘦身,添加目录) - 知乎 (zhihu.com)&lt;/a&gt;&amp;#160;&lt;a href=&#34;#fnref:4&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:5&#34;&gt;
+&lt;p&gt;最多再加上用wsl跑latex啦(真的)&amp;#160;&lt;a href=&#34;#fnref:5&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:6&#34;&gt;
+&lt;p&gt;hypersnips for math 永远滴神!&amp;#160;&lt;a href=&#34;#fnref:6&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+        </item>
+        <item>
         <title>About</title>
         <link>https://yoursyllables.github.io/about/</link>
         <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
@@ -16,6 +132,15 @@
 &lt;p&gt;吾辈是学生，很笨。挣扎着学习的同时深受社会的规训。想学的东西很多，没有精通的东西。{{{(&amp;gt;_&amp;lt;)}}}&lt;/p&gt;
 &lt;h4 id=&#34;那么这篇博客会写些什么呢疑问&#34;&gt;那么这篇博客会写些什么呢？（疑问）&lt;/h4&gt;
 &lt;p&gt;答案是，尽可能长的东西。目前打算深入的有数学、自然科学以及计算机。当然也会记录一些自己的娱乐生活。就是这样啦~&lt;/p&gt;
+&lt;p&gt;你可以在这些地方见到我：&lt;/p&gt;
+&lt;p&gt;bilibili:&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/5386331?spm_id_from=444.41.0.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;沐如岚岚岚的个人空间&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;bangumi:&lt;a class=&#34;link&#34; href=&#34;https://bangumi.tv/user/777871&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;bangumi&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;豆瓣:&lt;a class=&#34;link&#34; href=&#34;https://www.douban.com/people/269441306/?_i=4667876-gXhYbJ&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;沐如岚 &lt;/a&gt;，几乎只记录而不产出。&lt;/p&gt;
+&lt;p&gt;知乎:&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/people/alice-55-39-20&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;岚岚 - 知乎 (zhihu.com)&lt;/a&gt;&lt;/p&gt;
 </description>
         </item>
         <item>
@@ -24,8 +149,7 @@
         <pubDate>Thu, 09 Mar 2023 14:15:31 +0000</pubDate>
         
         <guid>https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E5%AD%A6/%E8%AF%AD%E8%A8%80%E9%97%AE%E9%A2%98/</guid>
-        <description>&lt;h1 id=&#34;语言问题&#34;&gt;语言问题&lt;/h1&gt;
-&lt;p&gt;赵元任教授以口语般的讲述方式，极其亲切地对语言学的各领域做了一次简述，内容之广度甚至延申到了相关的信号学、声学，无愧于书名“语言问题”。&lt;/p&gt;
+        <description>&lt;p&gt;赵元任教授以口语般的讲述方式，极其亲切地对语言学的各领域做了一次简述，内容之广度甚至延申到了相关的信号学、声学，无愧于书名“语言问题”。&lt;/p&gt;
 &lt;p&gt;这篇笔记的内容只限于语言的部分，即语言学导论的部分，还参考了其他一些导论。（如An Introduction to Language (Victoria Fromkin）
 未记录的书中如符号学、汉语历史等内容，读者可自行阅读。&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
@@ -42,13 +166,25 @@
 &lt;h3 id=&#34;单音&#34;&gt;单音&lt;/h3&gt;
 &lt;h4 id=&#34;consonant&#34;&gt;consonant&lt;/h4&gt;
 &lt;p&gt;在口腔内部，舌头是主动的调音部位，齿龈、腭以及小舌是被动的&lt;strong&gt;调音部位。&lt;/strong&gt;&lt;/p&gt;
-&lt;p&gt;口腔内的&lt;strong&gt;调音方式&lt;/strong&gt;有：
-成阻时，气流完全受到阻碍，所发出的音 &lt;strong&gt;塞音（plosive）&lt;/strong&gt;
-气流不完全受阻，通过调音部位之间的窄缝发生摩擦，得到&lt;strong&gt;擦音(fricative)&lt;/strong&gt;
-（对于舌尖音，这时如果气流较强，会使得舌头发生振动，即与调音部位反复碰撞，产生&lt;strong&gt;颤音(trill)&lt;/strong&gt;）
-气流不完全受阻，从舌头两旁而非中间发出，形成&lt;strong&gt;边音（lateral）&lt;/strong&gt;
-调音部位之间缝隙较宽，产生&lt;strong&gt;近音（approximent）&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;口腔内的&lt;strong&gt;调音方式&lt;/strong&gt;有：&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;
+&lt;p&gt;成阻时，气流完全受到阻碍，所发出的音 &lt;strong&gt;塞音（plosive）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;气流不完全受阻，通过调音部位之间的窄缝发生摩擦，得到&lt;strong&gt;擦音(fricative)&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;（对于舌尖音，这时如果气流较强，会使得舌头发生振动，即与调音部位反复碰撞，产生&lt;strong&gt;颤音(trill)&lt;/strong&gt;）&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;气流不完全受阻，从舌头两旁而非中间发出，形成&lt;strong&gt;边音（lateral）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;调音部位之间缝隙较宽，产生&lt;strong&gt;近音（approximent）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
 &lt;p&gt;口腔关闭，气流通过鼻腔成阻，发出&lt;strong&gt;鼻音（nasal）&lt;/strong&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;各辅音可以调音部位和调音方式的矩阵确定。&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
@@ -63,21 +199,24 @@
 	
 &gt;&lt;/p&gt;
 &lt;p&gt;不同舌位的练习‍也就是要从生理层面考虑不同受力点，舌位的前后也就是施力部位（舌尖和舌面）的区别。由于舌头是一个整体，舌面或舌根的移动当然会伴随着口腔内部的移动，往往越靠后的元音越会伴随着唇形的变圆。&lt;/p&gt;
-&lt;p&gt;值得练习的cardinal vowels（基础元音？）有：[i] [e] [ɛ] [a] [ɑ] [ɔ] [o] [u]&lt;/p&gt;
+&lt;p&gt;值得练习的cardinal vowels（基础元音？）有：[i] [e] [ɛ] [a] [ɑ] [ɔ] [o] [u]  &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;另外的音还有英语中常出现的“短i”[ɪ]（与&amp;quot;长i&amp;quot;[i]相比）&lt;/p&gt;
-&lt;p&gt;还有一个出现频率非常高的中央元音[ə]，以至于有一个词**(schwa)**来描述它。&lt;/p&gt;
+&lt;p&gt;还有一个出现频率非常高的中央元音[ə]，以至于有一个词 &lt;strong&gt;(schwa)&lt;/strong&gt; 来描述它。&lt;sup id=&#34;fnref:2&#34;&gt;&lt;a href=&#34;#fn:2&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;h3 id=&#34;复合音&#34;&gt;复合音&lt;/h3&gt;
 &lt;p&gt;在这一范畴，我们有&lt;strong&gt;塞擦音(Affricative)&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;怎么确定一个音是否不可再分呢？一个判断的方法是对其进行反演变换，若倒放后的音不保持波形图不变，那么这个音就可以被分解成更小的音。&lt;/p&gt;
 &lt;p&gt;比如对音节[ʦa]倒放，其语音是[ast]，听觉上能感受到摩擦和爆破的先后顺序。&lt;/p&gt;
-&lt;p&gt;另外，**送气音(aspiration)**是一个复杂的现象，它不是某一个音的属性（比如音调），当我们发一个清音时，[pa]，发音和声带振动是同一时间进行的，而发浊音[ba]时，声带提前振动。而发送气时，发完辅音的约$\frac{1}{20}$s后声带才开始振动。中间是会有气流的。这也是为什么送气音会用喉音[h]作为上标来记录。&lt;/p&gt;
-&lt;p&gt;因此，[pʰa]的倒放更像是[aɸp]&lt;/p&gt;
+&lt;p&gt;另外，&lt;strong&gt;送气音 (aspiration)&lt;/strong&gt; 是一个复杂的现象，它不是某一个音的属性（比如音调），当我们发一个清音时，[pa]，发音和声带振动是同一时间进行的，而发浊音[ba]时，声带提前振动。而发送气时，发完辅音的约$\frac{1}{20}$s后声带才开始振动。中间是会有气流的。这也是为什么送气音会用喉音[h]作为上标来记录。&lt;/p&gt;
+&lt;p&gt;因此，[pʰa]的倒放更像是[aɸp]，而不是~~[apʰ]~~&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;h3 id=&#34;杂谈&#34;&gt;杂谈&lt;/h3&gt;
 &lt;p&gt;在GA中我们经常听到r化元音[ɚ]（舌尖再抬高接近上颚可以得到另一个音）这种记录往往作为一种附加属性，相似的还有其他符号和概念（比如无声除阻），我们会在之后的语音学以及IPA学习中进一步涉及。&lt;/p&gt;
-&lt;p&gt;‍关于语音的练习，可以通过声学的方式辅助，包括用语音学生常用的频谱分析软件Prrat观察自己的语音波形图来纠正语音(尤其是清浊)，使用parametric diagram来记录音段。&lt;/p&gt;
+&lt;p&gt;而关于语音的练习，可以通过声学的方式辅助，包括用语音学生常用的频谱分析软件Prrat观察自己的语音波形图来纠正语音(尤其是清浊)，使用parametric diagram来记录音段。更具体的方法可以参考&lt;a class=&#34;link&#34; href=&#34;https://www.zhihu.com/question/31220918/answer/51178434&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;修读语音学的学生是如何学习语音、训练发音的？ - 知乎 (zhihu.com)&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;对于最常识性的IPA符号的练习，我强烈安利这个网站:&lt;a class=&#34;link&#34; href=&#34;https://teaching.ncl.ac.uk/ipa/practical-exercises.html&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;IPA Online - Practical exercises (ncl.ac.uk)&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;h2 id=&#34;phonology&#34;&gt;Phonology&lt;/h2&gt;
@@ -200,7 +339,7 @@ rebel/ri&amp;rsquo;bel/动词；rebel/&amp;lsquo;rebl/名词
 &lt;p&gt;我始终相信，在具体的学习实践之前掌握一定的认识论是很有帮助的。在语言学中的认识论首先是：认识到语言的任意性。用索绪尔的话讲就是“能指与所指的关系是完全任意的”。这表明各种言语现象可能是混乱的，但却也有着一种特定的自由：我们无往不处于母语的枷锁中，在学习外语时也会受其影响。我们会未经思考而把既定的音代入外语文字中，而不考虑它们语音和音系属性的区别；我们会囿于汉语文字的表意方式，忽略外语文字的表音属性；有人对于外语的词只能翻译到本国词汇来对应。认识到语言的任意就是要打破母语的这种&amp;quot;既定&amp;quot;的束缚。这也是为什么学习语言往往被认为是打破偏见。可是从另一种层面，脱离惯性、质疑常识本来不就是学习吧？&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;一定程度的认识能够再生产我们对专一化工具的需求，而工具的革新当然能提高效率。语音学的工具是IPA.&lt;/p&gt;
-&lt;p&gt;无论是否用作交流，学习语言应当从语音开始，至少对于所谓大多数文字都是“表音”的语言来说。只学文字的话会忽略大量的信息和娱乐来源（视频、歌曲）。而且，在这之后，匮乏的言语认识往往会限制人对所指(意义)的摄取。就以最常见到的冠词a/the与介词of为例。词的间隔使我们忽略了其在主题中的地位。一段语流中这些语法词是存在是十分短暂的，这启示我们在阅读中也采用相似的略读方法。&lt;/p&gt;
+&lt;p&gt;无论是否用作交流，学习语言应当从语音开始，至少对于所谓大多数文字都是“表音”的语言来说。只学文字的话会忽略大量的信息和娱乐来源（视频、歌曲）。而且，在这之后，匮乏的言语认识往往会限制人对所指(意义)的摄取。就以最常见到的冠词a/the与介词of为例。词的间隔蕴含了一种对称的意味，使我们忽略了其在主题中的地位。然而一段语流中这些语法词是存在是十分短暂的，这启示我们在阅读/听写中也采用相似的略读方法。&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;我想象到的学习顺序是:（学完IPA后）&lt;/p&gt;
 &lt;p&gt;$Orthography \to Phonology\to  Morphology \to Synatx$&lt;/p&gt;
@@ -208,19 +347,34 @@ rebel/ri&amp;rsquo;bel/动词；rebel/&amp;lsquo;rebl/名词
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;练习辅音时，需要注意分别放在元音前后练，这样适应音节的发音。练[rɑ]和[ɑrɑ]，检验音节末的辅音的方式也是发一个元音，看它是否呈现出相同的听感。&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
+&lt;p&gt;另外，在学习外语时参考母语也是有必要的。不是说将母语的映射迁到外语，而是通过「 对比」的方法考察不同文化之间的表意(音)结构&lt;sup id=&#34;fnref:3&#34;&gt;&lt;a href=&#34;#fn:3&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;3&lt;/a&gt;&lt;/sup&gt;。谈到为什么这么做时，我们不会引用弗雷格、维特根斯坦，从而上升到语言哲学的层次：光是能够发现结构之间的相似性就足以发挥作用、振奋人心了。&lt;/p&gt;
+&lt;p&gt;作为参考，推荐阅读&lt;a class=&#34;link&#34; href=&#34;https://zhuanlan.zhihu.com/p/260660949&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
+    &gt;汉语拼音与国际音标对照表（简明表格版） - 知乎 (zhihu.com)&lt;/a&gt;，以及各语言的正字法、音系wiki&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;英语中的音系现象是：&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;清浊对立&lt;/strong&gt;&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;轻、重音&lt;/strong&gt;（虽然对立的情况少，但重音弄错可能会让人听不懂）&lt;/p&gt;
 &lt;p&gt;&lt;strong&gt;连读(linking)&lt;/strong&gt;
 辅音之后的元音是连续的，这与汉语中的音节直接的断裂（有喉音[ʔ]）有区别。&lt;/p&gt;
-&lt;p&gt;另外，法语中的**加连音(liaison）**是指， 一些掉了的音的重新出现的现象。比如pas[pɑ]在连元音（比如encore）后恢复成[pɑz],
+&lt;p&gt;另外，法语中的 &lt;strong&gt;加连音(liaison)&lt;/strong&gt; 是指， 一些掉了的音的重新出现的现象。比如pas[pɑ]在连元音（比如encore）后恢复成[pɑz],
 在英语中比如$one \to a \to an$&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
-&lt;p&gt;还有的比如[t,d,s]遇到[j]时候的颚化[t͡ʃ]&lt;/p&gt;
-&lt;p&gt;‍&lt;/p&gt;
-&lt;p&gt;‍&lt;/p&gt;
-&lt;p&gt;GA和RP之间有一些区别，比如GA中的[ɹ]在英国南部中掉落。&lt;/p&gt;
+&lt;p&gt;还有的比如[t,d,s]遇到[j]时候的颚化[t͡ʃ]；GA和RP之间有一些区别，比如GA中的[ɹ]在英国南部中掉落。&lt;/p&gt;
+&lt;p&gt;未来的我：什么举例嘛，完全就是只写了些特点而不谈方法嘛（大嘘）&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34; role=&#34;doc-endnotes&#34;&gt;
+&lt;hr&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn:1&#34;&gt;
+&lt;p&gt;据说是以最符合法国人音系的标准指定的。&amp;#160;&lt;a href=&#34;#fnref:1&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:2&#34;&gt;
+&lt;p&gt;在英语语流中，几乎所有非重音节中的元音都会弱化成[ə]，算是元音音系广的代价吧。&amp;#160;&lt;a href=&#34;#fnref:2&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;li id=&#34;fn:3&#34;&gt;
+&lt;p&gt;没错，有一项附属学科叫「 比较语言学」&amp;#160;&lt;a href=&#34;#fnref:3&#34; class=&#34;footnote-backref&#34; role=&#34;doc-backlink&#34;&gt;&amp;#x21a9;&amp;#xfe0e;&lt;/a&gt;&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
 </description>
         </item>
         <item>
