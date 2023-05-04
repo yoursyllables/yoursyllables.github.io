@@ -1,0 +1,766 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='在生产力当中，虽然劳动过程的当事人在形式上是人，但其中起决定作用的要素并不是人，而是生产资料。 -Louis Pierre Althusser《Sur la reproduction》
+这篇文章用来记录我常用的工具/软件。
+系统 默认应用 首先是一些不需要赘述的常用软件,它们可以大大地减少国内生态对人的反智影响：
+7z:开源压缩软件(同类型的也推荐bandzip)
+qBittorrent:开源p2p下载器,用于替换迅雷,具有自动追踪tracker和反吸血的功能。
+Internet Download Manager(IDM):(付费)下载管理器,通过并行算法增加下载速率。同时其搭配的浏览器扩展可以方便地下载一些网页的媒体资源(youtube)
+VLC:多媒体播放器
+Potplayer:另一种知名播放器。值得一提的是其默认配置较差,更改配置参考知名番剧压制组基于 PotPlayer 和 madVR 的播放器教程 | VCB-Studio
+网盘软件我暂时使用的是Onedrive和百度云网盘。前者在使用科学的情况下是理想的同步手段；后者在分享资源方面几乎没有替代&amp;hellip;..
+效率 quicker：我把它当作一款鼠标中键扩展。它可以把一些常用的操作和脚本集成到软件面板里，从而简化操作。
+比如，我可以通过鼠标中键打开我常用的视频文件夹、运行一段脚本上传博客的更改（这个有点蠢）,使用软件自带的截图和ocr。另外它有很多扩展动作。搭配浏览器扩展沙拉查词可以实现在浏览器外的划词翻译。
+uninstall tool：用来清理奇奇怪怪的注册表。
+管理 这里是关于一些存储各种数据的工具。
+密码管理器 KeePass:开源本地密码管理器。基于极其安全的AES256加密算法保存密码。
+使用浏览器自带的密码记录有一些缺点：首先是其简单的存储方式具有被本地截取的风险1；二是不同浏览器之间的数据难以整合:至少我觉得大家不会只用一个浏览器浏览各种涩涩网站~(￣▽￣)~*༼ つ
+关于KeePass拓展插件的使用,可以阅读这篇文章。安卓端可以在google play上下载其他大佬整合的KeePass2Android。
+至于其他的云端管理器比如Bitwarden 、1Password等，这里就不作叙述了。2
+电子书 因为windows本身的文件管理不尽人意，我用calibre来存放和整理本地电子书（pdf）
+它在检索之外还提供了类似豆瓣的功能，支持从各种网络数据库下载元数据（封面、作者、标签等等），在一定程度上有助于辨识图书。
+btw，它的存储格式是真的丑陋。
+学习 阅读 由于大部分经典的书籍都是扫描版的形式，导致很多困难（文字模糊、无目录、无法编辑字体）。而adobe acrobat能提供相关修改功能（图像增强、ocr等），同时也可以满足高亮文本、注释的需求，是一个较完美的一站式pdf阅读软件。
+数学书的ocr建议使用abbyy。
+另外，鉴于acrobat的打开速度和臃肿的体积，我偶尔也使用drawboard pdf 和sumatra pdf阅读一些简单的书。前者免费提供了文本编辑的功能，后者是一款开源的极其轻便的阅读软件。
+笔记 电子笔记显然弥补了纸质笔记的检索和记录的缺点。而主流的双链笔记其实就是在这基础上提供了整理零碎记录的功能,同时各种记录的链接确实能加深整体的印象。
+我用的是思源笔记。它的功能还算够用，和另一款开源笔记obsidian相比大概就是插件比较少吧&amp;hellip;
+anki 大名鼎鼎的anki应该不用我介绍了喵。一款间隔重复记忆软件，支持手机端。适合闲的没事拿起来刷一会儿。
+最主要的问题是将anki与日常学习流关联起来。这时我推荐ankisiyuan，将笔记的内容制作成卡片导入anki。在外语方面我也推荐番茄查词，生词本可以方便地导入anki
+专业 文本编辑 前面的软件已经可以满足大部分需求了，不过身为理工科人总会面对写代码这件事。我使用的文本编辑器是vscode，搭配vim和gitlen插件能舒适地完成大部分工作。
+一些简单的记录和富文字的社科笔记可以在typora和思源笔记中完成，然鹅面对大量的数学公式，LaTeX比markdown更能适应和实现文章的排版。
+通过配置texlive后，我大部分的数学笔记是在vscode中完成的。毕竟没有什么比自己写pdf更能理解数学的了（笑）
+科学计算 令人头疼的长latex公式是阻碍思考的东西。MathType可以相对快速地完成这样的操作。不过鉴于vim宏设置也能简化输入，而且重复在vscode和MathType之间切换也挺麻烦的。直接用vim或者vscode里的快照插件应该是更好的选择。
+最后，建模和计算软件也是刚需，在MATLAB和Mathematica中总得选一个。我选后者，因为树桑也在用。
+例如在管理员权限下中病毒有可能直接通过windows获取edge密码&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+买不起服务器呜呜呜&amp;#160;&amp;#x21a9;&amp;#xfe0e;'>
+<title>Tool&amp;Soft</title>
+
+<link rel='canonical' href='https://yoursyllables.github.io/posts/tech/toolsoft/'>
+
+<link rel="stylesheet" href="/scss/style.min.5be32ca3f6e1a997c75795c4359147cc6d4fbd34948c0acd51e31d237033978a.css"><meta property='og:title' content='Tool&amp;Soft'>
+<meta property='og:description' content='在生产力当中，虽然劳动过程的当事人在形式上是人，但其中起决定作用的要素并不是人，而是生产资料。 -Louis Pierre Althusser《Sur la reproduction》
+这篇文章用来记录我常用的工具/软件。
+系统 默认应用 首先是一些不需要赘述的常用软件,它们可以大大地减少国内生态对人的反智影响：
+7z:开源压缩软件(同类型的也推荐bandzip)
+qBittorrent:开源p2p下载器,用于替换迅雷,具有自动追踪tracker和反吸血的功能。
+Internet Download Manager(IDM):(付费)下载管理器,通过并行算法增加下载速率。同时其搭配的浏览器扩展可以方便地下载一些网页的媒体资源(youtube)
+VLC:多媒体播放器
+Potplayer:另一种知名播放器。值得一提的是其默认配置较差,更改配置参考知名番剧压制组基于 PotPlayer 和 madVR 的播放器教程 | VCB-Studio
+网盘软件我暂时使用的是Onedrive和百度云网盘。前者在使用科学的情况下是理想的同步手段；后者在分享资源方面几乎没有替代&amp;hellip;..
+效率 quicker：我把它当作一款鼠标中键扩展。它可以把一些常用的操作和脚本集成到软件面板里，从而简化操作。
+比如，我可以通过鼠标中键打开我常用的视频文件夹、运行一段脚本上传博客的更改（这个有点蠢）,使用软件自带的截图和ocr。另外它有很多扩展动作。搭配浏览器扩展沙拉查词可以实现在浏览器外的划词翻译。
+uninstall tool：用来清理奇奇怪怪的注册表。
+管理 这里是关于一些存储各种数据的工具。
+密码管理器 KeePass:开源本地密码管理器。基于极其安全的AES256加密算法保存密码。
+使用浏览器自带的密码记录有一些缺点：首先是其简单的存储方式具有被本地截取的风险1；二是不同浏览器之间的数据难以整合:至少我觉得大家不会只用一个浏览器浏览各种涩涩网站~(￣▽￣)~*༼ つ
+关于KeePass拓展插件的使用,可以阅读这篇文章。安卓端可以在google play上下载其他大佬整合的KeePass2Android。
+至于其他的云端管理器比如Bitwarden 、1Password等，这里就不作叙述了。2
+电子书 因为windows本身的文件管理不尽人意，我用calibre来存放和整理本地电子书（pdf）
+它在检索之外还提供了类似豆瓣的功能，支持从各种网络数据库下载元数据（封面、作者、标签等等），在一定程度上有助于辨识图书。
+btw，它的存储格式是真的丑陋。
+学习 阅读 由于大部分经典的书籍都是扫描版的形式，导致很多困难（文字模糊、无目录、无法编辑字体）。而adobe acrobat能提供相关修改功能（图像增强、ocr等），同时也可以满足高亮文本、注释的需求，是一个较完美的一站式pdf阅读软件。
+数学书的ocr建议使用abbyy。
+另外，鉴于acrobat的打开速度和臃肿的体积，我偶尔也使用drawboard pdf 和sumatra pdf阅读一些简单的书。前者免费提供了文本编辑的功能，后者是一款开源的极其轻便的阅读软件。
+笔记 电子笔记显然弥补了纸质笔记的检索和记录的缺点。而主流的双链笔记其实就是在这基础上提供了整理零碎记录的功能,同时各种记录的链接确实能加深整体的印象。
+我用的是思源笔记。它的功能还算够用，和另一款开源笔记obsidian相比大概就是插件比较少吧&amp;hellip;
+anki 大名鼎鼎的anki应该不用我介绍了喵。一款间隔重复记忆软件，支持手机端。适合闲的没事拿起来刷一会儿。
+最主要的问题是将anki与日常学习流关联起来。这时我推荐ankisiyuan，将笔记的内容制作成卡片导入anki。在外语方面我也推荐番茄查词，生词本可以方便地导入anki
+专业 文本编辑 前面的软件已经可以满足大部分需求了，不过身为理工科人总会面对写代码这件事。我使用的文本编辑器是vscode，搭配vim和gitlen插件能舒适地完成大部分工作。
+一些简单的记录和富文字的社科笔记可以在typora和思源笔记中完成，然鹅面对大量的数学公式，LaTeX比markdown更能适应和实现文章的排版。
+通过配置texlive后，我大部分的数学笔记是在vscode中完成的。毕竟没有什么比自己写pdf更能理解数学的了（笑）
+科学计算 令人头疼的长latex公式是阻碍思考的东西。MathType可以相对快速地完成这样的操作。不过鉴于vim宏设置也能简化输入，而且重复在vscode和MathType之间切换也挺麻烦的。直接用vim或者vscode里的快照插件应该是更好的选择。
+最后，建模和计算软件也是刚需，在MATLAB和Mathematica中总得选一个。我选后者，因为树桑也在用。
+例如在管理员权限下中病毒有可能直接通过windows获取edge密码&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+买不起服务器呜呜呜&amp;#160;&amp;#x21a9;&amp;#xfe0e;'>
+<meta property='og:url' content='https://yoursyllables.github.io/posts/tech/toolsoft/'>
+<meta property='og:site_name' content='迷の小屋'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2023-05-04T00:00:00&#43;00:00'/><meta property='article:modified_time' content='2023-05-04T00:00:00&#43;00:00'/><meta property='og:image' content='https://yoursyllables.github.io/img/123415623.png' />
+<meta name="twitter:title" content="Tool&amp;Soft">
+<meta name="twitter:description" content="在生产力当中，虽然劳动过程的当事人在形式上是人，但其中起决定作用的要素并不是人，而是生产资料。 -Louis Pierre Althusser《Sur la reproduction》
+这篇文章用来记录我常用的工具/软件。
+系统 默认应用 首先是一些不需要赘述的常用软件,它们可以大大地减少国内生态对人的反智影响：
+7z:开源压缩软件(同类型的也推荐bandzip)
+qBittorrent:开源p2p下载器,用于替换迅雷,具有自动追踪tracker和反吸血的功能。
+Internet Download Manager(IDM):(付费)下载管理器,通过并行算法增加下载速率。同时其搭配的浏览器扩展可以方便地下载一些网页的媒体资源(youtube)
+VLC:多媒体播放器
+Potplayer:另一种知名播放器。值得一提的是其默认配置较差,更改配置参考知名番剧压制组基于 PotPlayer 和 madVR 的播放器教程 | VCB-Studio
+网盘软件我暂时使用的是Onedrive和百度云网盘。前者在使用科学的情况下是理想的同步手段；后者在分享资源方面几乎没有替代&amp;hellip;..
+效率 quicker：我把它当作一款鼠标中键扩展。它可以把一些常用的操作和脚本集成到软件面板里，从而简化操作。
+比如，我可以通过鼠标中键打开我常用的视频文件夹、运行一段脚本上传博客的更改（这个有点蠢）,使用软件自带的截图和ocr。另外它有很多扩展动作。搭配浏览器扩展沙拉查词可以实现在浏览器外的划词翻译。
+uninstall tool：用来清理奇奇怪怪的注册表。
+管理 这里是关于一些存储各种数据的工具。
+密码管理器 KeePass:开源本地密码管理器。基于极其安全的AES256加密算法保存密码。
+使用浏览器自带的密码记录有一些缺点：首先是其简单的存储方式具有被本地截取的风险1；二是不同浏览器之间的数据难以整合:至少我觉得大家不会只用一个浏览器浏览各种涩涩网站~(￣▽￣)~*༼ つ
+关于KeePass拓展插件的使用,可以阅读这篇文章。安卓端可以在google play上下载其他大佬整合的KeePass2Android。
+至于其他的云端管理器比如Bitwarden 、1Password等，这里就不作叙述了。2
+电子书 因为windows本身的文件管理不尽人意，我用calibre来存放和整理本地电子书（pdf）
+它在检索之外还提供了类似豆瓣的功能，支持从各种网络数据库下载元数据（封面、作者、标签等等），在一定程度上有助于辨识图书。
+btw，它的存储格式是真的丑陋。
+学习 阅读 由于大部分经典的书籍都是扫描版的形式，导致很多困难（文字模糊、无目录、无法编辑字体）。而adobe acrobat能提供相关修改功能（图像增强、ocr等），同时也可以满足高亮文本、注释的需求，是一个较完美的一站式pdf阅读软件。
+数学书的ocr建议使用abbyy。
+另外，鉴于acrobat的打开速度和臃肿的体积，我偶尔也使用drawboard pdf 和sumatra pdf阅读一些简单的书。前者免费提供了文本编辑的功能，后者是一款开源的极其轻便的阅读软件。
+笔记 电子笔记显然弥补了纸质笔记的检索和记录的缺点。而主流的双链笔记其实就是在这基础上提供了整理零碎记录的功能,同时各种记录的链接确实能加深整体的印象。
+我用的是思源笔记。它的功能还算够用，和另一款开源笔记obsidian相比大概就是插件比较少吧&amp;hellip;
+anki 大名鼎鼎的anki应该不用我介绍了喵。一款间隔重复记忆软件，支持手机端。适合闲的没事拿起来刷一会儿。
+最主要的问题是将anki与日常学习流关联起来。这时我推荐ankisiyuan，将笔记的内容制作成卡片导入anki。在外语方面我也推荐番茄查词，生词本可以方便地导入anki
+专业 文本编辑 前面的软件已经可以满足大部分需求了，不过身为理工科人总会面对写代码这件事。我使用的文本编辑器是vscode，搭配vim和gitlen插件能舒适地完成大部分工作。
+一些简单的记录和富文字的社科笔记可以在typora和思源笔记中完成，然鹅面对大量的数学公式，LaTeX比markdown更能适应和实现文章的排版。
+通过配置texlive后，我大部分的数学笔记是在vscode中完成的。毕竟没有什么比自己写pdf更能理解数学的了（笑）
+科学计算 令人头疼的长latex公式是阻碍思考的东西。MathType可以相对快速地完成这样的操作。不过鉴于vim宏设置也能简化输入，而且重复在vscode和MathType之间切换也挺麻烦的。直接用vim或者vscode里的快照插件应该是更好的选择。
+最后，建模和计算软件也是刚需，在MATLAB和Mathematica中总得选一个。我选后者，因为树桑也在用。
+例如在管理员权限下中病毒有可能直接通过windows获取edge密码&amp;#160;&amp;#x21a9;&amp;#xfe0e;
+买不起服务器呜呜呜&amp;#160;&amp;#x21a9;&amp;#xfe0e;"><meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content='https://yoursyllables.github.io/img/123415623.png' />
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/img_hu419e12235b7645515ba0d70c193eb44c_61946_300x0_resize_box_3.png" width="300"
+                            height="303" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">迷の小屋</a></h1>
+            <h2 class="site-description">γνῶθι σεαυτόν</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/yoursyllables'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/yoursyllables'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://yoursyllables.github.io/" selected>English</option>
+                        
+                            <option value="https://yoursyllables.github.io/zh-cn/" >中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#系统">系统</a>
+      <ol>
+        <li><a href="#默认应用">默认应用</a></li>
+        <li><a href="#效率">效率</a></li>
+      </ol>
+    </li>
+    <li><a href="#管理">管理</a>
+      <ol>
+        <li><a href="#密码管理器">密码管理器</a></li>
+        <li><a href="#电子书">电子书</a></li>
+      </ol>
+    </li>
+    <li><a href="#学习">学习</a>
+      <ol>
+        <li><a href="#阅读">阅读</a></li>
+        <li><a href="#笔记">笔记</a></li>
+        <li><a href="#anki">anki</a></li>
+      </ol>
+    </li>
+    <li><a href="#专业">专业</a>
+      <ol>
+        <li><a href="#文本编辑">文本编辑</a></li>
+        <li><a href="#科学计算">科学计算</a></li>
+      </ol>
+    </li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="has-image main-article">
+    <header class="article-header">
+        <div class="article-image">
+            <a href="/posts/tech/toolsoft/">
+                
+                    <img src="/img/123415623.png" loading="lazy" alt="Featured image of post Tool&amp;Soft" />
+                
+            </a>
+        </div>
+    
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/tech/" style="background-color: #BBFFFF; color: #fff;">
+                Tech
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/tech/toolsoft/">Tool&amp;Soft</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">May 04, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    1 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <blockquote>
+<p>在生产力当中，虽然劳动过程的当事人在形式上是人，但其中起决定作用的要素并不是人，而是生产资料。
+-Louis Pierre Althusser《Sur la reproduction》</p>
+</blockquote>
+<p>这篇文章用来记录我常用的工具/软件。</p>
+<h2 id="系统">系统</h2>
+<h3 id="默认应用">默认应用</h3>
+<p>首先是一些不需要赘述的常用软件,它们可以大大地减少国内生态对人的反智影响：</p>
+<ol>
+<li>
+<p><code>7z</code>:开源压缩软件(同类型的也推荐<code>bandzip</code>)</p>
+</li>
+<li>
+<p><a class="link" href="https://github.com/c0re100/qBittorrent-Enhanced-Edition/releases"  target="_blank" rel="noopener"
+    ><code>qBittorrent</code></a>:开源p2p下载器,用于替换迅雷,具有自动追踪tracker和<a class="link" href="https://zhuanlan.zhihu.com/p/87193566"  target="_blank" rel="noopener"
+    >反吸血</a>的功能。</p>
+</li>
+<li>
+<p><code>Internet Download Manager(IDM)</code>:(付费)下载管理器,通过并行算法增加下载速率。同时其搭配的浏览器扩展可以方便地下载一些网页的媒体资源(youtube)</p>
+</li>
+<li>
+<p><a class="link" href="https://www.videolan.org/vlc/"  target="_blank" rel="noopener"
+    ><code>VLC</code></a>:多媒体播放器</p>
+<p><a class="link" href="https://potplayer.tv/?lang=zh_CN"  target="_blank" rel="noopener"
+    ><code>Potplayer</code></a>:另一种知名播放器。值得一提的是其默认配置较差,更改配置参考知名番剧压制组<a class="link" href="https://vcb-s.com/archives/7228"  target="_blank" rel="noopener"
+    >基于 PotPlayer 和 madVR 的播放器教程 | VCB-Studio</a></p>
+<p>网盘软件我暂时使用的是<code>Onedrive</code>和<code>百度云网盘</code>。前者在使用科学的情况下是理想的同步手段；后者在分享资源方面几乎没有替代&hellip;..</p>
+</li>
+</ol>
+<h3 id="效率">效率</h3>
+<p><a class="link" href="https://getquicker.net/"  target="_blank" rel="noopener"
+    ><code>quicker</code></a>：我把它当作一款鼠标中键扩展。它可以把一些常用的操作和脚本集成到软件面板里，从而简化操作。</p>
+<p>比如，我可以通过鼠标中键打开我常用的视频文件夹、运行一段脚本上传博客的更改（这个有点蠢）,使用软件自带的截图和ocr。另外它有很多扩展动作。搭配浏览器扩展<a class="link" href="https://saladict.crimx.com/"  target="_blank" rel="noopener"
+    >沙拉查词</a>可以实现在浏览器外的划词翻译。</p>
+<p><code>uninstall tool</code>：用来清理奇奇怪怪的注册表。</p>
+<h2 id="管理">管理</h2>
+<p>这里是关于一些存储各种数据的工具。</p>
+<h3 id="密码管理器">密码管理器</h3>
+<p><code>KeePass</code>:开源本地密码管理器。基于<strong>极其安全</strong>的AES256加密算法保存密码。</p>
+<p>使用浏览器自带的密码记录有一些缺点：首先是其简单的存储方式具有被本地截取的风险<sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup>；二是不同浏览器之间的数据难以整合:至少我觉得大家不会只用一个浏览器浏览各种<del>涩涩</del>网站~(￣▽￣)~*༼ つ</p>
+<p>关于KeePass拓展插件的使用,可以阅读<a class="link" href="https://zhuanlan.zhihu.com/p/39645975"  target="_blank" rel="noopener"
+    >这篇文章</a>。安卓端可以在google play上下载其他大佬整合的<code>KeePass2Android</code>。</p>
+<p>至于其他的云端管理器比如<code>Bitwarden</code> 、<code>1Password</code>等，这里就不作叙述了。<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<h3 id="电子书">电子书</h3>
+<p>因为windows本身的文件管理不尽人意，我用<code>calibre</code>来存放和整理本地电子书（pdf）</p>
+<p>它在检索之外还提供了类似豆瓣的功能，支持从各种网络数据库下载元数据（封面、作者、标签等等），在一定程度上有助于辨识图书。</p>
+<p>btw，它的存储格式是真的丑陋。</p>
+<h2 id="学习">学习</h2>
+<h3 id="阅读">阅读</h3>
+<p>由于大部分经典的书籍都是扫描版的形式，导致很多困难（文字模糊、无目录、无法编辑字体）。而<code>adobe acrobat</code>能提供相关修改功能（图像增强、ocr等），同时也可以满足高亮文本、注释的需求，是一个较完美的一站式pdf阅读软件。</p>
+<p>数学书的ocr建议使用<code>abbyy</code>。</p>
+<p>另外，鉴于acrobat的打开速度和臃肿的体积，我偶尔也使用<code>drawboard pdf</code> 和<code>sumatra pdf</code>阅读一些简单的书。前者免费提供了文本编辑的功能，后者是一款开源的极其轻便的阅读软件。</p>
+<h3 id="笔记">笔记</h3>
+<p>电子笔记显然弥补了纸质笔记的检索和记录的缺点。而主流的双链笔记其实就是在这基础上提供了<a class="link" href="https://www.yuque.com/deerain/gannbs/ffqk2e?utm_source=ld246.com#564b719f"  target="_blank" rel="noopener"
+    >整理零碎记录</a>的功能,同时各种记录的链接确实能加深整体的印象。</p>
+<p>我用的是<code>思源笔记</code>。它的功能还算够用，和另一款开源笔记<code>obsidian</code>相比大概就是插件比较少吧&hellip;</p>
+<h3 id="anki">anki</h3>
+<p>大名鼎鼎的anki应该不用我介绍了喵。一款间隔重复记忆软件，支持手机端。适合闲的没事拿起来刷一会儿。</p>
+<p>最主要的问题是将anki与日常学习流关联起来。这时我推荐<a class="link" href="https://github.com/Clouder0/AnkiSiyuan"  target="_blank" rel="noopener"
+    >ankisiyuan</a>，将笔记的内容制作成卡片导入anki。在外语方面我也推荐番茄查词，生词本可以方便地导入anki</p>
+<h2 id="专业">专业</h2>
+<h3 id="文本编辑">文本编辑</h3>
+<p>前面的软件已经可以满足大部分需求了，不过身为理工科人总会面对写代码这件事。我使用的文本编辑器是<code>vscode</code>，搭配vim和gitlen插件能舒适地完成大部分工作。</p>
+<p>一些简单的记录和富文字的社科笔记可以在typora和思源笔记中完成，然鹅面对大量的数学公式，LaTeX比markdown更能适应和实现文章的排版。</p>
+<p>通过配置texlive后，我大部分的数学笔记是在vscode中完成的。毕竟没有什么比自己写pdf更能理解数学的了（笑）</p>
+<h3 id="科学计算">科学计算</h3>
+<p>令人头疼的长latex公式是阻碍思考的东西。<code>MathType</code>可以相对快速地完成这样的操作。不过鉴于vim宏设置也能简化输入，而且重复在vscode和MathType之间切换也挺麻烦的。直接用vim或者vscode里的快照插件应该是更好的选择。</p>
+<p>最后，建模和计算软件也是刚需，在<code>MATLAB</code>和<code>Mathematica</code>中总得选一个。我选后者，因为<a class="link" href="https://zhuanlan.zhihu.com/p/136542995"  target="_blank" rel="noopener"
+    >树桑也在用</a>。</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>例如在管理员权限下中病毒有可能直接通过windows获取edge密码&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>买不起服务器呜呜呜&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2023 迷の小屋
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
