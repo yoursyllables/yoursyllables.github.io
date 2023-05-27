@@ -8,11 +8,11 @@
         <language>en-us</language>
         <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yoursyllables.github.io/categories/tech/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Tool&amp;Soft</title>
-        <link>https://yoursyllables.github.io/posts/tech/toolsoft/</link>
+        <link>https://yoursyllables.github.io/posts/toolsoft/</link>
         <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://yoursyllables.github.io/posts/tech/toolsoft/</guid>
-        <description>&lt;img src="https://yoursyllables.github.io/posts/Tech/123415623.png" alt="Featured image of post Tool&amp;Soft" /&gt;&lt;blockquote&gt;
+        <guid>https://yoursyllables.github.io/posts/toolsoft/</guid>
+        <description>&lt;img src="https://yoursyllables.github.io/posts/toolsoft/123415623.png" alt="Featured image of post Tool&amp;Soft" /&gt;&lt;blockquote&gt;
 &lt;p&gt;在生产力当中，虽然劳动过程的当事人在形式上是人，但其中起决定作用的要素并不是人，而是生产资料。
 -Louis Pierre Althusser《Sur la reproduction》&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -63,14 +63,18 @@
 &lt;blockquote&gt;
 &lt;p&gt;btw，它的存储格式是真的丑陋。传输pdf的时候最好是用&lt;code&gt;保存到硬盘&lt;/code&gt;选项，否则《无机化学》会变成极其抽象的《wu ji hua xue》&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://yoursyllables.github.io/posts/Tech/calibre.png&#34;
-	
-	
-	
+&lt;p&gt;&lt;img src=&#34;https://yoursyllables.github.io/posts/toolsoft/calibre.png&#34;
+	width=&#34;1920&#34;
+	height=&#34;1080&#34;
+	srcset=&#34;https://yoursyllables.github.io/posts/toolsoft/calibre_hu5c4d5d88acf1ab16da8fecd5c922f17a_193620_480x0_resize_box_3.png 480w, https://yoursyllables.github.io/posts/toolsoft/calibre_hu5c4d5d88acf1ab16da8fecd5c922f17a_193620_1024x0_resize_box_3.png 1024w&#34;
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;calibre&#34;
 	
+	
+		class=&#34;gallery-image&#34; 
+		data-flex-grow=&#34;177&#34;
+		data-flex-basis=&#34;426px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;学习&#34;&gt;学习&lt;/h2&gt;
