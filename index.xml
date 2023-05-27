@@ -8,11 +8,11 @@
         <language>en-us</language>
         <lastBuildDate>Thu, 04 May 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://yoursyllables.github.io/index.xml" rel="self" type="application/rss+xml" /><item>
         <title>Tool&amp;Soft</title>
-        <link>https://yoursyllables.github.io/posts/toolsoft/</link>
+        <link>https://yoursyllables.github.io/posts/tech/toolsoft/</link>
         <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
         
-        <guid>https://yoursyllables.github.io/posts/toolsoft/</guid>
-        <description>&lt;img src="https://yoursyllables.github.io/posts/toolsoft/123415623.png" alt="Featured image of post Tool&amp;Soft" /&gt;&lt;blockquote&gt;
+        <guid>https://yoursyllables.github.io/posts/tech/toolsoft/</guid>
+        <description>&lt;img src="https://yoursyllables.github.io/posts/Tech/123415623.png" alt="Featured image of post Tool&amp;Soft" /&gt;&lt;blockquote&gt;
 &lt;p&gt;在生产力当中，虽然劳动过程的当事人在形式上是人，但其中起决定作用的要素并不是人，而是生产资料。
 -Louis Pierre Althusser《Sur la reproduction》&lt;/p&gt;
 &lt;/blockquote&gt;
@@ -63,18 +63,14 @@
 &lt;blockquote&gt;
 &lt;p&gt;btw，它的存储格式是真的丑陋。传输pdf的时候最好是用&lt;code&gt;保存到硬盘&lt;/code&gt;选项，否则《无机化学》会变成极其抽象的《wu ji hua xue》&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;p&gt;&lt;img src=&#34;https://yoursyllables.github.io/posts/toolsoft/calibre.png&#34;
-	width=&#34;1920&#34;
-	height=&#34;1080&#34;
-	srcset=&#34;https://yoursyllables.github.io/posts/toolsoft/calibre_hu5c4d5d88acf1ab16da8fecd5c922f17a_193620_480x0_resize_box_3.png 480w, https://yoursyllables.github.io/posts/toolsoft/calibre_hu5c4d5d88acf1ab16da8fecd5c922f17a_193620_1024x0_resize_box_3.png 1024w&#34;
+&lt;p&gt;&lt;img src=&#34;https://yoursyllables.github.io/posts/Tech/calibre.png&#34;
+	
+	
+	
 	loading=&#34;lazy&#34;
 	
 		alt=&#34;calibre&#34;
 	
-	
-		class=&#34;gallery-image&#34; 
-		data-flex-grow=&#34;177&#34;
-		data-flex-basis=&#34;426px&#34;
 	
 &gt;&lt;/p&gt;
 &lt;h2 id=&#34;学习&#34;&gt;学习&lt;/h2&gt;
@@ -134,9 +130,9 @@
         <guid>https://yoursyllables.github.io/about/</guid>
         <description>&lt;p&gt;你好鸭。欢迎来到我的小屋。&lt;/p&gt;
 &lt;p&gt;吾辈是学生，很笨。挣扎着学习的同时深受社会的规训。想学的东西很多，没有精通的东西。{{{(&amp;gt;_&amp;lt;)}}}&lt;/p&gt;
-&lt;h4 id=&#34;那么这篇博客会写些什么呢疑问&#34;&gt;那么这篇博客会写些什么呢？(疑问)&lt;/h4&gt;
+&lt;h4 id=&#34;那么这篇博客会写些什么呢疑问&#34;&gt;那么这篇博客会写些什么呢？（疑问）&lt;/h4&gt;
 &lt;p&gt;答案是，尽可能长的东西。目前打算深入的有数学、自然科学以及计算机。当然也会记录一些自己的娱乐生活。就是这样啦~&lt;/p&gt;
-&lt;h4 id=&#34;你可以在这些地方见到我&#34;&gt;你可以在这些地方见到我：&lt;/h4&gt;
+&lt;p&gt;你可以在这些地方见到我：&lt;/p&gt;
 &lt;p&gt;bilibili:&lt;a class=&#34;link&#34; href=&#34;https://space.bilibili.com/5386331?spm_id_from=444.41.0.0&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
     &gt;沐如岚岚岚的个人空间&lt;/a&gt;&lt;/p&gt;
 &lt;p&gt;bangumi:&lt;a class=&#34;link&#34; href=&#34;https://bangumi.tv/user/777871&#34;  target=&#34;_blank&#34; rel=&#34;noopener&#34;
@@ -149,10 +145,10 @@
         </item>
         <item>
         <title>语言问题</title>
-        <link>https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E9%97%AE%E9%A2%98/</link>
+        <link>https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E5%AD%A6/%E8%AF%AD%E8%A8%80%E9%97%AE%E9%A2%98/</link>
         <pubDate>Thu, 09 Mar 2023 14:15:31 +0000</pubDate>
         
-        <guid>https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E9%97%AE%E9%A2%98/</guid>
+        <guid>https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E5%AD%A6/%E8%AF%AD%E8%A8%80%E9%97%AE%E9%A2%98/</guid>
         <description>&lt;p&gt;赵元任教授以口语般的讲述方式，极其亲切地对语言学的各领域做了一次简述，内容之广度甚至延申到了相关的信号学、声学，无愧于书名“语言问题”。&lt;/p&gt;
 &lt;p&gt;这篇笔记的内容只限于语言的部分，即语言学导论的部分，还参考了其他一些导论。（如An Introduction to Language (Victoria Fromkin）
 未记录的书中如符号学、汉语历史等内容，读者可自行阅读。&lt;/p&gt;
@@ -160,7 +156,7 @@
 &lt;p&gt;‍&lt;/p&gt;
 &lt;h2 id=&#34;phonetics&#34;&gt;Phonetics&lt;/h2&gt;
 &lt;p&gt;这一学科主要研究语音的物理（声学）属性、发音方式还有在听觉方面呈现的事实。&lt;/p&gt;
-&lt;p&gt;（此处应该有一张口腔解剖图，但我懒了）&lt;/p&gt;
+&lt;p&gt;（此处应该有一张口腔解剖图）&lt;/p&gt;
 &lt;p&gt;(此处应该也有parametric diagram的介绍)&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;我们平常接触的大多数语音是肺部发出的音（肺音？），气流从喉部经过声带(&lt;strong&gt;vocal folds&lt;/strong&gt;)，直达口腔(&lt;strong&gt;oral cavity&lt;/strong&gt;)或者鼻腔(&lt;strong&gt;nasal cavity&lt;/strong&gt;)&lt;/p&gt;
@@ -194,7 +190,14 @@
 &lt;p&gt;‍&lt;/p&gt;
 &lt;h4 id=&#34;vowel&#34;&gt;vowel&lt;/h4&gt;
 &lt;p&gt;元音由舌位的高低(中)、前后(央)，以及唇形(平圆)确定。&lt;/p&gt;
-&lt;img src=&#34;vowel.png&#34; style=&#34;zoom:50%;&#34; /&gt;
+&lt;p&gt;&lt;img src=&#34;https://yoursyllables.github.io/img/vowel.png&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;&lt;/p&gt;
 &lt;p&gt;不同舌位的练习‍也就是要从生理层面考虑不同受力点，舌位的前后也就是施力部位（舌尖和舌面）的区别。由于舌头是一个整体，舌面或舌根的移动当然会伴随着口腔内部的移动，往往越靠后的元音越会伴随着唇形的变圆。&lt;/p&gt;
 &lt;p&gt;值得练习的cardinal vowels（基础元音？）有：[i] [e] [ɛ] [a] [ɑ] [ɔ] [o] [u]  &lt;sup id=&#34;fnref:1&#34;&gt;&lt;a href=&#34;#fn:1&#34; class=&#34;footnote-ref&#34; role=&#34;doc-noteref&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;&lt;/p&gt;
 &lt;p&gt;另外的音还有英语中常出现的“短i”[ɪ]（与&amp;quot;长i&amp;quot;[i]相比）&lt;/p&gt;
@@ -303,7 +306,14 @@ A phoneme of a language or dialect is an abstraction of a speech sound or of a g
 &lt;h3 id=&#34;word-grammer-structure&#34;&gt;word&amp;amp; grammer structure&lt;/h3&gt;
 &lt;p&gt;我们知道，能指和所指的关系是任意的。词素和意义也是任意的，但词素之间的连结不是任意的。（显然，最简单的关系是意义的&amp;quot;相加&amp;quot;）&lt;/p&gt;
 &lt;p&gt;这里做出一些区分，我们称&lt;strong&gt;词汇&lt;/strong&gt;为一种语言的所有的词。
-&lt;strong&gt;lexion&lt;/strong&gt;是所有语素的集合，而广义的词汇&lt;strong&gt;vocabury&lt;/strong&gt;包括一些非相加词素意义的词(打+听$\neq$打听)&lt;/p&gt;
+&lt;strong&gt;lexion&lt;/strong&gt;是所有语素的集合，而广义的词汇&lt;strong&gt;vocabury&lt;/strong&gt;包括一些非相加词素意义的词(打+听&lt;img src=&#34;https://www.yuque.com/api/services/graph/generate_redirect/latex?%5Cneq#card=math&amp;amp;code=%5Cneq&amp;amp;id=IOUDv&#34;
+	
+	
+	
+	loading=&#34;lazy&#34;
+	
+	
+&gt;打听)&lt;/p&gt;
 &lt;p&gt;‍&lt;/p&gt;
 &lt;p&gt;词的语法结构有这么几种：&lt;/p&gt;
 &lt;ol&gt;

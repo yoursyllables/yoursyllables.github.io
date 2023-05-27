@@ -1,0 +1,946 @@
+<!DOCTYPE html>
+<html lang="en-us" dir="ltr">
+    <head><meta charset='utf-8'>
+<meta name='viewport' content='width=device-width, initial-scale=1'><meta name='description' content='赵元任教授以口语般的讲述方式，极其亲切地对语言学的各领域做了一次简述，内容之广度甚至延申到了相关的信号学、声学，无愧于书名“语言问题”。
+这篇笔记的内容只限于语言的部分，即语言学导论的部分，还参考了其他一些导论。（如An Introduction to Language (Victoria Fromkin） 未记录的书中如符号学、汉语历史等内容，读者可自行阅读。
+‍
+‍
+Phonetics 这一学科主要研究语音的物理（声学）属性、发音方式还有在听觉方面呈现的事实。
+（此处应该有一张口腔解剖图）
+(此处应该也有parametric diagram的介绍)
+‍
+我们平常接触的大多数语音是肺部发出的音（肺音？），气流从喉部经过声带(vocal folds)，直达口腔(oral cavity)或者鼻腔(nasal cavity)
+这里，我们可以初步分出两类调音方式：声带振动与否，以及产生共鸣的腔体。
+‍
+辅音（consonant)是气流受到阻碍时发出的音。这类音往往持续时间很短；相反**元音(vowel)**则是气流不受阻碍时发出的（乐）音。
+单音 consonant 在口腔内部，舌头是主动的调音部位，齿龈、腭以及小舌是被动的调音部位。
+口腔内的调音方式有：
+成阻时，气流完全受到阻碍，所发出的音 塞音（plosive）
+气流不完全受阻，通过调音部位之间的窄缝发生摩擦，得到擦音(fricative)
+（对于舌尖音，这时如果气流较强，会使得舌头发生振动，即与调音部位反复碰撞，产生颤音(trill)）
+气流不完全受阻，从舌头两旁而非中间发出，形成边音（lateral）
+调音部位之间缝隙较宽，产生近音（approximent）
+口腔关闭，气流通过鼻腔成阻，发出鼻音（nasal）
+‍
+各辅音可以调音部位和调音方式的矩阵确定。
+‍
+vowel 元音由舌位的高低(中)、前后(央)，以及唇形(平圆)确定。
+不同舌位的练习‍也就是要从生理层面考虑不同受力点，舌位的前后也就是施力部位（舌尖和舌面）的区别。由于舌头是一个整体，舌面或舌根的移动当然会伴随着口腔内部的移动，往往越靠后的元音越会伴随着唇形的变圆。
+值得练习的cardinal vowels（基础元音？）有：[i] [e] [ɛ] [a] [ɑ] [ɔ] [o] [u] 1
+另外的音还有英语中常出现的“短i”[ɪ]（与&amp;quot;长i&amp;quot;[i]相比）
+还有一个出现频率非常高的中央元音[ə]，以至于有一个词 (schwa) 来描述它。2
+‍
+复合音 在这一范畴，我们有塞擦音(Affricative)
+怎么确定一个音是否不可再分呢？一个判断的方法是对其进行反演变换，若倒放后的音不保持波形图不变，那么这个音就可以被分解成更小的音。
+比如对音节[ʦa]倒放，其语音是[ast]，听觉上能感受到摩擦和爆破的先后顺序。
+另外，送气音 (aspiration) 是一个复杂的现象，它不是某一个音的属性（比如音调），当我们发一个清音时，[pa]，发音和声带振动是同一时间进行的，而发浊音[ba]时，声带提前振动。而发送气时，发完辅音的约$\frac{1}{20}$s后声带才开始振动。中间是会有气流的。这也是为什么送气音会用喉音[h]作为上标来记录。
+因此，[pʰa]的倒放更像是[aɸp]，而不是~~[apʰ]~~
+‍
+‍
+杂谈 在GA中我们经常听到r化元音[ɚ]（舌尖再抬高接近上颚可以得到另一个音）这种记录往往作为一种附加属性，相似的还有其他符号和概念（比如无声除阻），我们会在之后的语音学以及IPA学习中进一步涉及。
+而关于语音的练习，可以通过声学的方式辅助，包括用语音学生常用的频谱分析软件Prrat观察自己的语音波形图来纠正语音(尤其是清浊)，使用parametric diagram来记录音段。更具体的方法可以参考修读语音学的学生是如何学习语音、训练发音的？ - 知乎 (zhihu.'>
+<title>语言问题</title>
+
+<link rel='canonical' href='https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E5%AD%A6/%E8%AF%AD%E8%A8%80%E9%97%AE%E9%A2%98/'>
+
+<link rel="stylesheet" href="/scss/style.min.5be32ca3f6e1a997c75795c4359147cc6d4fbd34948c0acd51e31d237033978a.css"><meta property='og:title' content='语言问题'>
+<meta property='og:description' content='赵元任教授以口语般的讲述方式，极其亲切地对语言学的各领域做了一次简述，内容之广度甚至延申到了相关的信号学、声学，无愧于书名“语言问题”。
+这篇笔记的内容只限于语言的部分，即语言学导论的部分，还参考了其他一些导论。（如An Introduction to Language (Victoria Fromkin） 未记录的书中如符号学、汉语历史等内容，读者可自行阅读。
+‍
+‍
+Phonetics 这一学科主要研究语音的物理（声学）属性、发音方式还有在听觉方面呈现的事实。
+（此处应该有一张口腔解剖图）
+(此处应该也有parametric diagram的介绍)
+‍
+我们平常接触的大多数语音是肺部发出的音（肺音？），气流从喉部经过声带(vocal folds)，直达口腔(oral cavity)或者鼻腔(nasal cavity)
+这里，我们可以初步分出两类调音方式：声带振动与否，以及产生共鸣的腔体。
+‍
+辅音（consonant)是气流受到阻碍时发出的音。这类音往往持续时间很短；相反**元音(vowel)**则是气流不受阻碍时发出的（乐）音。
+单音 consonant 在口腔内部，舌头是主动的调音部位，齿龈、腭以及小舌是被动的调音部位。
+口腔内的调音方式有：
+成阻时，气流完全受到阻碍，所发出的音 塞音（plosive）
+气流不完全受阻，通过调音部位之间的窄缝发生摩擦，得到擦音(fricative)
+（对于舌尖音，这时如果气流较强，会使得舌头发生振动，即与调音部位反复碰撞，产生颤音(trill)）
+气流不完全受阻，从舌头两旁而非中间发出，形成边音（lateral）
+调音部位之间缝隙较宽，产生近音（approximent）
+口腔关闭，气流通过鼻腔成阻，发出鼻音（nasal）
+‍
+各辅音可以调音部位和调音方式的矩阵确定。
+‍
+vowel 元音由舌位的高低(中)、前后(央)，以及唇形(平圆)确定。
+不同舌位的练习‍也就是要从生理层面考虑不同受力点，舌位的前后也就是施力部位（舌尖和舌面）的区别。由于舌头是一个整体，舌面或舌根的移动当然会伴随着口腔内部的移动，往往越靠后的元音越会伴随着唇形的变圆。
+值得练习的cardinal vowels（基础元音？）有：[i] [e] [ɛ] [a] [ɑ] [ɔ] [o] [u] 1
+另外的音还有英语中常出现的“短i”[ɪ]（与&amp;quot;长i&amp;quot;[i]相比）
+还有一个出现频率非常高的中央元音[ə]，以至于有一个词 (schwa) 来描述它。2
+‍
+复合音 在这一范畴，我们有塞擦音(Affricative)
+怎么确定一个音是否不可再分呢？一个判断的方法是对其进行反演变换，若倒放后的音不保持波形图不变，那么这个音就可以被分解成更小的音。
+比如对音节[ʦa]倒放，其语音是[ast]，听觉上能感受到摩擦和爆破的先后顺序。
+另外，送气音 (aspiration) 是一个复杂的现象，它不是某一个音的属性（比如音调），当我们发一个清音时，[pa]，发音和声带振动是同一时间进行的，而发浊音[ba]时，声带提前振动。而发送气时，发完辅音的约$\frac{1}{20}$s后声带才开始振动。中间是会有气流的。这也是为什么送气音会用喉音[h]作为上标来记录。
+因此，[pʰa]的倒放更像是[aɸp]，而不是~~[apʰ]~~
+‍
+‍
+杂谈 在GA中我们经常听到r化元音[ɚ]（舌尖再抬高接近上颚可以得到另一个音）这种记录往往作为一种附加属性，相似的还有其他符号和概念（比如无声除阻），我们会在之后的语音学以及IPA学习中进一步涉及。
+而关于语音的练习，可以通过声学的方式辅助，包括用语音学生常用的频谱分析软件Prrat观察自己的语音波形图来纠正语音(尤其是清浊)，使用parametric diagram来记录音段。更具体的方法可以参考修读语音学的学生是如何学习语音、训练发音的？ - 知乎 (zhihu.'>
+<meta property='og:url' content='https://yoursyllables.github.io/posts/%E8%AF%AD%E8%A8%80%E5%AD%A6/%E8%AF%AD%E8%A8%80%E9%97%AE%E9%A2%98/'>
+<meta property='og:site_name' content='迷の小屋'>
+<meta property='og:type' content='article'><meta property='article:section' content='Posts' /><meta property='article:published_time' content='2023-03-09T14:15:31&#43;00:00'/><meta property='article:modified_time' content='2023-03-09T14:15:31&#43;00:00'/>
+<meta name="twitter:title" content="语言问题">
+<meta name="twitter:description" content="赵元任教授以口语般的讲述方式，极其亲切地对语言学的各领域做了一次简述，内容之广度甚至延申到了相关的信号学、声学，无愧于书名“语言问题”。
+这篇笔记的内容只限于语言的部分，即语言学导论的部分，还参考了其他一些导论。（如An Introduction to Language (Victoria Fromkin） 未记录的书中如符号学、汉语历史等内容，读者可自行阅读。
+‍
+‍
+Phonetics 这一学科主要研究语音的物理（声学）属性、发音方式还有在听觉方面呈现的事实。
+（此处应该有一张口腔解剖图）
+(此处应该也有parametric diagram的介绍)
+‍
+我们平常接触的大多数语音是肺部发出的音（肺音？），气流从喉部经过声带(vocal folds)，直达口腔(oral cavity)或者鼻腔(nasal cavity)
+这里，我们可以初步分出两类调音方式：声带振动与否，以及产生共鸣的腔体。
+‍
+辅音（consonant)是气流受到阻碍时发出的音。这类音往往持续时间很短；相反**元音(vowel)**则是气流不受阻碍时发出的（乐）音。
+单音 consonant 在口腔内部，舌头是主动的调音部位，齿龈、腭以及小舌是被动的调音部位。
+口腔内的调音方式有：
+成阻时，气流完全受到阻碍，所发出的音 塞音（plosive）
+气流不完全受阻，通过调音部位之间的窄缝发生摩擦，得到擦音(fricative)
+（对于舌尖音，这时如果气流较强，会使得舌头发生振动，即与调音部位反复碰撞，产生颤音(trill)）
+气流不完全受阻，从舌头两旁而非中间发出，形成边音（lateral）
+调音部位之间缝隙较宽，产生近音（approximent）
+口腔关闭，气流通过鼻腔成阻，发出鼻音（nasal）
+‍
+各辅音可以调音部位和调音方式的矩阵确定。
+‍
+vowel 元音由舌位的高低(中)、前后(央)，以及唇形(平圆)确定。
+不同舌位的练习‍也就是要从生理层面考虑不同受力点，舌位的前后也就是施力部位（舌尖和舌面）的区别。由于舌头是一个整体，舌面或舌根的移动当然会伴随着口腔内部的移动，往往越靠后的元音越会伴随着唇形的变圆。
+值得练习的cardinal vowels（基础元音？）有：[i] [e] [ɛ] [a] [ɑ] [ɔ] [o] [u] 1
+另外的音还有英语中常出现的“短i”[ɪ]（与&amp;quot;长i&amp;quot;[i]相比）
+还有一个出现频率非常高的中央元音[ə]，以至于有一个词 (schwa) 来描述它。2
+‍
+复合音 在这一范畴，我们有塞擦音(Affricative)
+怎么确定一个音是否不可再分呢？一个判断的方法是对其进行反演变换，若倒放后的音不保持波形图不变，那么这个音就可以被分解成更小的音。
+比如对音节[ʦa]倒放，其语音是[ast]，听觉上能感受到摩擦和爆破的先后顺序。
+另外，送气音 (aspiration) 是一个复杂的现象，它不是某一个音的属性（比如音调），当我们发一个清音时，[pa]，发音和声带振动是同一时间进行的，而发浊音[ba]时，声带提前振动。而发送气时，发完辅音的约$\frac{1}{20}$s后声带才开始振动。中间是会有气流的。这也是为什么送气音会用喉音[h]作为上标来记录。
+因此，[pʰa]的倒放更像是[aɸp]，而不是~~[apʰ]~~
+‍
+‍
+杂谈 在GA中我们经常听到r化元音[ɚ]（舌尖再抬高接近上颚可以得到另一个音）这种记录往往作为一种附加属性，相似的还有其他符号和概念（比如无声除阻），我们会在之后的语音学以及IPA学习中进一步涉及。
+而关于语音的练习，可以通过声学的方式辅助，包括用语音学生常用的频谱分析软件Prrat观察自己的语音波形图来纠正语音(尤其是清浊)，使用parametric diagram来记录音段。更具体的方法可以参考修读语音学的学生是如何学习语音、训练发音的？ - 知乎 (zhihu.">
+    </head>
+    <body class="
+    article-page
+    ">
+    <script>
+        (function() {
+            const colorSchemeKey = 'StackColorScheme';
+            if(!localStorage.getItem(colorSchemeKey)){
+                localStorage.setItem(colorSchemeKey, "auto");
+            }
+        })();
+    </script><script>
+    (function() {
+        const colorSchemeKey = 'StackColorScheme';
+        const colorSchemeItem = localStorage.getItem(colorSchemeKey);
+        const supportDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches === true;
+
+        if (colorSchemeItem == 'dark' || colorSchemeItem === 'auto' && supportDarkMode) {
+            
+
+            document.documentElement.dataset.scheme = 'dark';
+        } else {
+            document.documentElement.dataset.scheme = 'light';
+        }
+    })();
+</script>
+<div class="container main-container flex on-phone--column extended"><aside class="sidebar left-sidebar sticky ">
+    <button class="hamburger hamburger--spin" type="button" id="toggle-menu" aria-label="Toggle Menu">
+        <span class="hamburger-box">
+            <span class="hamburger-inner"></span>
+        </span>
+    </button>
+
+    <header>
+        
+            
+            <figure class="site-avatar">
+                <a href="/">
+                
+                    
+                    
+                    
+                        
+                        <img src="/img/img_hu419e12235b7645515ba0d70c193eb44c_61946_300x0_resize_box_3.png" width="300"
+                            height="303" class="site-logo" loading="lazy" alt="Avatar">
+                    
+                
+                </a>
+                
+            </figure>
+            
+        
+        
+        <div class="site-meta">
+            <h1 class="site-name"><a href="/">迷の小屋</a></h1>
+            <h2 class="site-description">γνῶθι σεαυτόν</h2>
+        </div>
+    </header><ol class="social-menu">
+            
+                <li>
+                    <a 
+                        href='https://github.com/yoursyllables'
+                        target="_blank"
+                        title="GitHub"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+                <li>
+                    <a 
+                        href='https://twitter.com/yoursyllables'
+                        target="_blank"
+                        title="Twitter"
+                        rel="me"
+                    >
+                        
+                        
+                            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-twitter" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M22 4.01c-1 .49 -1.98 .689 -3 .99c-1.121 -1.265 -2.783 -1.335 -4.38 -.737s-2.643 2.06 -2.62 3.737v1c-3.245 .083 -6.135 -1.395 -8 -4c0 0 -4.182 7.433 4 11c-1.872 1.247 -3.739 2.088 -6 2c3.308 1.803 6.913 2.423 10.034 1.517c3.58 -1.04 6.522 -3.723 7.651 -7.742a13.84 13.84 0 0 0 .497 -3.753c-.002 -.249 1.51 -2.772 1.818 -4.013z" />
+</svg>
+
+
+
+                        
+                    </a>
+                </li>
+            
+        </ol><ol class="menu" id="main-menu">
+        
+        
+        
+        <li >
+            <a href='/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-home" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <polyline points="5 12 3 12 12 3 21 12 19 12" />
+  <path d="M5 12v7a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-7" />
+  <path d="M9 21v-6a2 2 0 0 1 2 -2h2a2 2 0 0 1 2 2v6" />
+</svg>
+
+
+
+                
+                <span>Home</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/about/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-user" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="7" r="4" />
+  <path d="M6 21v-2a4 4 0 0 1 4 -4h4a4 4 0 0 1 4 4v2" />
+</svg>
+
+
+
+                
+                <span>About</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/archives/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-archive" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <rect x="3" y="4" width="18" height="4" rx="2" />
+  <path d="M5 8v10a2 2 0 0 0 2 2h10a2 2 0 0 0 2 -2v-10" />
+  <line x1="10" y1="12" x2="14" y2="12" />
+</svg>
+
+
+
+                
+                <span>Archives</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/search/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="10" cy="10" r="7" />
+  <line x1="21" y1="21" x2="15" y2="15" />
+</svg>
+
+
+
+                
+                <span>Search</span>
+            </a>
+        </li>
+        
+        
+        <li >
+            <a href='/links/' >
+                
+                
+                
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-link" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M10 14a3.5 3.5 0 0 0 5 0l4 -4a3.5 3.5 0 0 0 -5 -5l-.5 .5" />
+  <path d="M14 10a3.5 3.5 0 0 0 -5 0l-4 4a3.5 3.5 0 0 0 5 5l.5 -.5" />
+</svg>
+
+
+
+                
+                <span>Links</span>
+            </a>
+        </li>
+        
+
+        <div class="menu-bottom-section">
+                <li id="i18n-switch">  
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-language" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+  <path d="M4 5h7" />
+  <path d="M9 3v2c0 4.418 -2.239 8 -5 8" />
+  <path d="M5 9c-.003 2.144 2.952 3.908 6.7 4" />
+  <path d="M12 20l4 -9l4 9" />
+  <path d="M19.1 18h-6.2" />
+</svg>
+
+
+
+                    <select name="language" onchange="window.location.href = this.selectedOptions[0].value">
+                        
+                            <option value="https://yoursyllables.github.io/" selected>English</option>
+                        
+                            <option value="https://yoursyllables.github.io/zh-cn/" >中文</option>
+                        
+                    </select>
+                </li>
+            
+            
+            
+                <li id="dark-mode-toggle">
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-left" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="8" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-toggle-right" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="16" cy="12" r="2" />
+  <rect x="2" y="6" width="20" height="12" rx="6" />
+</svg>
+
+
+
+                    <span>Dark Mode</span>
+                </li>
+            
+        </div>
+    </ol>
+</aside>
+
+    <aside class="sidebar right-sidebar sticky">
+        
+            
+                
+    <section class="widget archives">
+        <div class="widget-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-hash" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <line x1="5" y1="9" x2="19" y2="9" />
+  <line x1="5" y1="15" x2="19" y2="15" />
+  <line x1="11" y1="4" x2="7" y2="20" />
+  <line x1="17" y1="4" x2="13" y2="20" />
+</svg>
+
+
+
+        </div>
+        <h2 class="widget-title section-title">Table of contents</h2>
+        
+        <div class="widget--toc">
+            <nav id="TableOfContents">
+  <ol>
+    <li><a href="#phonetics">Phonetics</a>
+      <ol>
+        <li><a href="#单音">单音</a>
+          <ol>
+            <li><a href="#consonant">consonant</a></li>
+            <li><a href="#vowel">vowel</a></li>
+          </ol>
+        </li>
+        <li><a href="#复合音">复合音</a></li>
+        <li><a href="#杂谈">杂谈</a></li>
+      </ol>
+    </li>
+    <li><a href="#phonology">Phonology</a>
+      <ol>
+        <li><a href="#phoneme">phoneme</a></li>
+        <li><a href="#补充">补充</a></li>
+        <li><a href="#suprasegmental-elementsprosodeme">suprasegmental elements/prosodeme</a>
+          <ol>
+            <li><a href="#tone">tone</a></li>
+            <li><a href="#音长">音长</a></li>
+            <li><a href="#juncture">juncture</a></li>
+          </ol>
+        </li>
+      </ol>
+    </li>
+    <li><a href="#morphology">Morphology</a>
+      <ol>
+        <li><a href="#morphome">morphome</a></li>
+        <li><a href="#word-grammer-structure">word&amp; grammer structure</a></li>
+      </ol>
+    </li>
+    <li><a href="#附录以英语为例谈学习语言">附录:以英语为例谈学习语言</a></li>
+  </ol>
+</nav>
+        </div>
+    </section>
+
+            
+        
+    </aside>
+
+
+            <main class="main full-width">
+    <article class="main-article">
+    <header class="article-header">
+
+    <div class="article-details">
+    
+    <header class="article-category">
+        
+            <a href="/categories/%E8%AF%AD%E8%A8%80%E5%AD%A6/" style="background-color: #2a9d8f; color: #fff;">
+                语言学
+            </a>
+        
+    </header>
+    
+
+    <div class="article-title-wrapper">
+        <h2 class="article-title">
+            <a href="/posts/%E8%AF%AD%E8%A8%80%E5%AD%A6/%E8%AF%AD%E8%A8%80%E9%97%AE%E9%A2%98/">语言问题</a>
+        </h2>
+    
+        
+    </div>
+
+    
+    
+    
+    
+    <footer class="article-time">
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-calendar-time" width="56" height="56" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <path d="M11.795 21h-6.795a2 2 0 0 1 -2 -2v-12a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v4" />
+  <circle cx="18" cy="18" r="4" />
+  <path d="M15 3v4" />
+  <path d="M7 3v4" />
+  <path d="M3 11h16" />
+  <path d="M18 16.496v1.504l1 1" />
+</svg>
+                <time class="article-time--published">Mar 09, 2023</time>
+            </div>
+        
+
+        
+            <div>
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-clock" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <polyline points="12 7 12 12 15 15" />
+</svg>
+
+
+
+                <time class="article-time--reading">
+                    2 minute read
+                </time>
+            </div>
+        
+    </footer>
+    
+
+    
+</div>
+
+</header>
+
+    <section class="article-content">
+    
+    
+    <p>赵元任教授以口语般的讲述方式，极其亲切地对语言学的各领域做了一次简述，内容之广度甚至延申到了相关的信号学、声学，无愧于书名“语言问题”。</p>
+<p>这篇笔记的内容只限于语言的部分，即语言学导论的部分，还参考了其他一些导论。（如An Introduction to Language (Victoria Fromkin）
+未记录的书中如符号学、汉语历史等内容，读者可自行阅读。</p>
+<p>‍</p>
+<p>‍</p>
+<h2 id="phonetics">Phonetics</h2>
+<p>这一学科主要研究语音的物理（声学）属性、发音方式还有在听觉方面呈现的事实。</p>
+<p>（此处应该有一张口腔解剖图）</p>
+<p>(此处应该也有parametric diagram的介绍)</p>
+<p>‍</p>
+<p>我们平常接触的大多数语音是肺部发出的音（肺音？），气流从喉部经过声带(<strong>vocal folds</strong>)，直达口腔(<strong>oral cavity</strong>)或者鼻腔(<strong>nasal cavity</strong>)</p>
+<p>这里，我们可以初步分出两类<strong>调音方式</strong>：声带振动与否，以及产生共鸣的腔体。</p>
+<p>‍</p>
+<p><strong>辅音（consonant</strong>)是气流受到阻碍时发出的音。这类音往往持续时间很短；相反**元音(vowel)**则是气流不受阻碍时发出的（乐）音。</p>
+<h3 id="单音">单音</h3>
+<h4 id="consonant">consonant</h4>
+<p>在口腔内部，舌头是主动的调音部位，齿龈、腭以及小舌是被动的<strong>调音部位。</strong></p>
+<p>口腔内的<strong>调音方式</strong>有：</p>
+<ol>
+<li>
+<p>成阻时，气流完全受到阻碍，所发出的音 <strong>塞音（plosive）</strong></p>
+</li>
+<li>
+<p>气流不完全受阻，通过调音部位之间的窄缝发生摩擦，得到<strong>擦音(fricative)</strong></p>
+<p>（对于舌尖音，这时如果气流较强，会使得舌头发生振动，即与调音部位反复碰撞，产生<strong>颤音(trill)</strong>）</p>
+</li>
+<li>
+<p>气流不完全受阻，从舌头两旁而非中间发出，形成<strong>边音（lateral）</strong></p>
+</li>
+<li>
+<p>调音部位之间缝隙较宽，产生<strong>近音（approximent）</strong></p>
+</li>
+<li>
+<p>口腔关闭，气流通过鼻腔成阻，发出<strong>鼻音（nasal）</strong></p>
+</li>
+</ol>
+<p>‍</p>
+<p>各辅音可以调音部位和调音方式的矩阵确定。</p>
+<p>‍</p>
+<h4 id="vowel">vowel</h4>
+<p>元音由舌位的高低(中)、前后(央)，以及唇形(平圆)确定。</p>
+<p><img src="/img/vowel.png"
+	
+	
+	
+	loading="lazy"
+	
+	
+></p>
+<p>不同舌位的练习‍也就是要从生理层面考虑不同受力点，舌位的前后也就是施力部位（舌尖和舌面）的区别。由于舌头是一个整体，舌面或舌根的移动当然会伴随着口腔内部的移动，往往越靠后的元音越会伴随着唇形的变圆。</p>
+<p>值得练习的cardinal vowels（基础元音？）有：[i] [e] [ɛ] [a] [ɑ] [ɔ] [o] [u]  <sup id="fnref:1"><a href="#fn:1" class="footnote-ref" role="doc-noteref">1</a></sup></p>
+<p>另外的音还有英语中常出现的“短i”[ɪ]（与&quot;长i&quot;[i]相比）</p>
+<p>还有一个出现频率非常高的中央元音[ə]，以至于有一个词 <strong>(schwa)</strong> 来描述它。<sup id="fnref:2"><a href="#fn:2" class="footnote-ref" role="doc-noteref">2</a></sup></p>
+<p>‍</p>
+<h3 id="复合音">复合音</h3>
+<p>在这一范畴，我们有<strong>塞擦音(Affricative)</strong></p>
+<p>怎么确定一个音是否不可再分呢？一个判断的方法是对其进行反演变换，若倒放后的音不保持波形图不变，那么这个音就可以被分解成更小的音。</p>
+<p>比如对音节[ʦa]倒放，其语音是[ast]，听觉上能感受到摩擦和爆破的先后顺序。</p>
+<p>另外，<strong>送气音 (aspiration)</strong> 是一个复杂的现象，它不是某一个音的属性（比如音调），当我们发一个清音时，[pa]，发音和声带振动是同一时间进行的，而发浊音[ba]时，声带提前振动。而发送气时，发完辅音的约$\frac{1}{20}$s后声带才开始振动。中间是会有气流的。这也是为什么送气音会用喉音[h]作为上标来记录。</p>
+<p>因此，[pʰa]的倒放更像是[aɸp]，而不是~~[apʰ]~~</p>
+<p>‍</p>
+<p>‍</p>
+<h3 id="杂谈">杂谈</h3>
+<p>在GA中我们经常听到r化元音[ɚ]（舌尖再抬高接近上颚可以得到另一个音）这种记录往往作为一种附加属性，相似的还有其他符号和概念（比如无声除阻），我们会在之后的语音学以及IPA学习中进一步涉及。</p>
+<p>而关于语音的练习，可以通过声学的方式辅助，包括用语音学生常用的频谱分析软件Prrat观察自己的语音波形图来纠正语音(尤其是清浊)，使用parametric diagram来记录音段。更具体的方法可以参考<a class="link" href="https://www.zhihu.com/question/31220918/answer/51178434"  target="_blank" rel="noopener"
+    >修读语音学的学生是如何学习语音、训练发音的？ - 知乎 (zhihu.com)</a></p>
+<p>对于最常识性的IPA符号的练习，我强烈安利这个网站:<a class="link" href="https://teaching.ncl.ac.uk/ipa/practical-exercises.html"  target="_blank" rel="noopener"
+    >IPA Online - Practical exercises (ncl.ac.uk)</a></p>
+<p>‍</p>
+<p>‍</p>
+<h2 id="phonology">Phonology</h2>
+<p>‍</p>
+<h3 id="phoneme">phoneme</h3>
+<p>在<strong>音系学</strong>的探讨中，我们忽略一部分语音的物理或听觉属性，从而考虑其对所指的映射关系，也就是考虑到了语音之间的整个表意系统。</p>
+<p>‍
+A phoneme of a language or dialect is an abstraction of a speech sound or of a group of different sounds which are all perceived to have the same function by speakers of that particular language or dialect</p>
+<p>‍</p>
+<p>在法语中，[mwa]表示我的宾格，而[mwɑ]表示月份，发错音会导致意义混淆，然而在汉语中无论发[ba]还是[pɑ]，却都是&quot;父亲&quot;的意思。这启示我们，如果音的改变不会使得意义改变，那我们当然可以在抽象意义上把它看成“同一个音”。</p>
+<p>不要忽视这种简单化研究对象的处理方式的作用，它能帮助我们走的更远。(如果学过一点抽象代数，那就知道这其实也就是商映射的应用之一。)</p>
+<p>‍</p>
+<p>音位往往是非单射的，一个音位内的元素叫做<strong>allophone(同位异音)</strong></p>
+<p>如何判断音位呢？自然的想法就是找到一个<strong>最小对（minimal contrast）</strong>，即相同的语言环境下，语音改变使得意义改变的两个音，叫做<strong>对立分布</strong>。反之，allophone之间的关系是<strong>互补分布。</strong>（互补的意思是，一种语言环境只能出现唯一的一个，/k/在单词开头时一定是送气音）</p>
+<p>‍</p>
+<p>总之，关于音位的内涵，我们要考虑的是两点：</p>
+<ol>
+<li>allophone彼此听起来相似</li>
+<li>allophone呈互补分布。</li>
+</ol>
+<p>要注意的是判断音位时要考虑的是最小对即复合音，而不是单个音，（毕竟音节是连续的），比如[kat],和[kit]中，前面的[k]带上了一点[a]的属性，后面的[k]带上了一点[i]的属性，但听起来总是相似的。</p>
+<p>因此，我们有音位/l/=[l]or[ɫ] ，但没有[h]和[ŋ]构成的音位，哪怕它们有互补的关系，但是听起来不相似。</p>
+<p>‍</p>
+<h3 id="补充">补充</h3>
+<p>言语的系统总归不是纯粹的。留心便可看见混乱的地方。allophone之间无法区分出意义高低，曾经有人试图把在某一音位中出现最多的送气音称为&quot;主要的音&quot;，但毫无意义，最终只能承认，不同allophone的地位的等价的。</p>
+<p>在日语中，有[ta][ti][te][to]，但是在[u]的部分却只有[tsu]，为了研究意义，也就当成了/tu/的音位来看待。</p>
+<p>在英语中，有的语音永远是以浊音的形式呈现的，而没有与之对立的清音。</p>
+<p>‍</p>
+<p>这种混乱或许是一种科学对现实的妥协，但少许无规律的东西还是很让人不悦。</p>
+<p>‍</p>
+<h3 id="suprasegmental-elementsprosodeme">suprasegmental elements/prosodeme</h3>
+<p>‍</p>
+<p>作为附加属性的调，虽然在物理上是与声音同时进行的，但表意不同，我们称其为<strong>segmental phonemes（音段音位）</strong>
+这种音位的集合叫做<strong>suprasegmental elements(超音段音素)</strong></p>
+<p>‍</p>
+<h4 id="tone">tone</h4>
+<h5 id="音调">音调</h5>
+<p>总得来说这是一个挺麻烦的东西（至少对我来说），它指的是通过音高变化来区分意义的一种语音现象。</p>
+<p>‍</p>
+<p>汉语中的调是词素内的调（<strong>音调</strong>），大致被划为我们所熟知的四声（还有一个轻声的音位即自然发出的音，北京话似乎多一点。（在&quot;吗&quot;&quot;欸&quot;这样的词也是轻声））：
+阴平[55:]
+阳平[35:]
+上声[214:]&amp;[21:]
+去声[51:]</p>
+<p>‍</p>
+<p>词素之间的组合会使得调发生一些改变，比如双音节词中第一个词往往会轻一点，第二个词会重一点。上声这时候就是[21:]了。（试着说&quot;买马&quot;）</p>
+<p>‍</p>
+<p>英语(GA,RP)中的调是词之间的<strong>语调</strong>
+在表达疑问时，GA的语调逐渐上升，而RP会在重音处先下降再上升。</p>
+<p>‍</p>
+<h5 id="stress">stress</h5>
+<p>‍</p>
+<p><strong>accent</strong>还有&quot;口音&quot;和&quot;高低&quot;的意思，我们单独用stress表示<strong>重音</strong>。</p>
+<p>‍</p>
+<p>中文里的重音是提高了音的相对距离，即高的音更高，低的音更低。而英语里的重音是提高振幅和音值。</p>
+<p>‍</p>
+<p>‍</p>
+<h4 id="音长">音长</h4>
+<p>有的语言的音位包括长短音。比如德语(不熟，无例子)。</p>
+<p>英语中的所谓&quot;长o&quot; &ldquo;短o&quot;似乎还伴随着语音的改变，不能视作音长。</p>
+<p>‍</p>
+<p>在日语中我们能看到这样的长音： ookii，似乎o的调有点像阴平,i的调有点像去声。相似的变调现象还有很多。这代表日语之间存在字的声调吗？
+这样归类的话似乎会使得日语音系变得复杂，因此另一种做法是把长音oo看成调不同的[o]的相加（さい的两个音节就是这样做的），归类到语调那里去。</p>
+<p>‍</p>
+<h4 id="juncture">juncture</h4>
+<p>对比汉语“发难”和“翻案”，在快速讲述的时候，这里有一个音节混淆的问题。在英语中则是 a nice man 和an ice man，音系学把这样的现象记录为[ə+nais+mæn]和[ən+ais+mæn]，认为这之间的“停顿”即[+]也是一个音位。</p>
+<p>当然，汉语中一般对于音节之间有明显的界限，或者可以认为元音声母之前有一个喉音音位/？/</p>
+<p>‍</p>
+<p>‍</p>
+<p>‍</p>
+<h2 id="morphology">Morphology</h2>
+<p><strong>形态学</strong>考察被我们称作词(word)的音节复合体的结构。</p>
+<p>在词&quot;syllable&rdquo;  &ldquo;computer&quot;中，我们或多或少地发现可以拆分的地方。前者单独成词，而后者可以分为&quot;com-&ldquo;和&quot;puter&rdquo;，我们当然想要找到研究对象的单位，意义似乎是一个可以采取的标准。于是这里我们定义：</p>
+<p>‍</p>
+<p><strong>词素morpheme</strong>是语言中最小的意义单位。</p>
+<p>‍</p>
+<h3 id="morphome">morphome</h3>
+<p>然而，如何判断词素？归根到底什么是词素的意义？我们需要付出些许思忖。这里有一种脱离研究的危险：如果深入探讨，那么研究可能将会变成哲学或是社会学的范畴。
+一个稳妥的方式是，不研究意义，而研究意义的异同：若非外延相同，否则就是不同的词素。(从这里可以看出索绪尔的影子)
+比如&quot;美&quot;和&quot;好看&rdquo;，虽然有相同(相似)的意义，但一个是单词素一个是复词素，所以外延不相同（如果要区分单复数的话）</p>
+<p>‍</p>
+<p>词素内部可能有多个音节，单独的音也会变。比如中的[s]和中的[z]，这些音显然不能看作同一音位，但由于表达相同的意义（复数）。我们记作同一<strong>形态音位morphophonme</strong></p>
+<p>集合内的元素叫做<strong>morph（同位语？形态同位异音？）</strong></p>
+<p>‍</p>
+<p>‍</p>
+<p>‍</p>
+<h3 id="word-grammer-structure">word&amp; grammer structure</h3>
+<p>我们知道，能指和所指的关系是任意的。词素和意义也是任意的，但词素之间的连结不是任意的。（显然，最简单的关系是意义的&quot;相加&quot;）</p>
+<p>这里做出一些区分，我们称<strong>词汇</strong>为一种语言的所有的词。
+<strong>lexion</strong>是所有语素的集合，而广义的词汇<strong>vocabury</strong>包括一些非相加词素意义的词(打+听<img src="https://www.yuque.com/api/services/graph/generate_redirect/latex?%5Cneq#card=math&amp;code=%5Cneq&amp;id=IOUDv"
+	
+	
+	
+	loading="lazy"
+	
+	
+>打听)</p>
+<p>‍</p>
+<p>词的语法结构有这么几种：</p>
+<ol>
+<li><strong>语序（order）</strong>
+例子：Is he 和 he is，用功和功用</li>
+<li><strong>音调（tone）</strong>
+广义的音调包括轻重音。
+&lt;tran&rsquo;fer&gt;名词,&lt;&lsquo;transfer&gt;动词</li>
+<li><strong>音变(phonetic modification)</strong>
+这里不是指音位的改变，而是指同一个词的语法范畴的音的改变
+man-men
+rebel/ri&rsquo;bel/动词；rebel/&lsquo;rebl/名词
+中文里的音变大抵不是主要的，但也有比如&lt;种&gt;上声，名词；去声，动词</li>
+<li><strong>词类(word class)</strong>
+这个词类指的是所有类的集合。</li>
+</ol>
+<p>‍</p>
+<p>‍</p>
+<p>‍</p>
+<p>‍</p>
+<p>‍</p>
+<h2 id="附录以英语为例谈学习语言">附录:以英语为例谈学习语言</h2>
+<p>我始终相信，在具体的学习实践之前掌握一定的认识论是很有帮助的。在语言学中的认识论首先是：认识到语言的任意性。用索绪尔的话讲就是“能指与所指的关系是完全任意的”。这表明各种言语现象可能是混乱的，但却也有着一种特定的自由：我们无往不处于母语的枷锁中，在学习外语时也会受其影响。我们会未经思考而把既定的音代入外语文字中，而不考虑它们语音和音系属性的区别；我们会囿于汉语文字的表意方式，忽略外语文字的表音属性；有人对于外语的词只能翻译到本国词汇来对应。认识到语言的任意就是要打破母语的这种&quot;既定&quot;的束缚。这也是为什么学习语言往往被认为是打破偏见。可是从另一种层面，脱离惯性、质疑常识本来不就是学习吧？</p>
+<p>‍</p>
+<p>一定程度的认识能够再生产我们对专一化工具的需求，而工具的革新当然能提高效率。语音学的工具是IPA.</p>
+<p>无论是否用作交流，学习语言应当从语音开始，至少对于所谓大多数文字都是“表音”的语言来说。只学文字的话会忽略大量的信息和娱乐来源（视频、歌曲）。而且，在这之后，匮乏的言语认识往往会限制人对所指(意义)的摄取。就以最常见到的冠词a/the与介词of为例。词的间隔蕴含了一种对称的意味，使我们忽略了其在主题中的地位。然而一段语流中这些语法词是存在是十分短暂的，这启示我们在阅读/听写中也采用相似的略读方法。</p>
+<p>‍</p>
+<p>我想象到的学习顺序是:（学完IPA后）</p>
+<p>$Orthography \to Phonology\to  Morphology \to Synatx$</p>
+<p>即先学习能指间的对应关系(音—文字)，然后分别学习音的表意方式（记录音位、语调），字的表意方式（词素、语法）</p>
+<p>‍</p>
+<p>练习辅音时，需要注意分别放在元音前后练，这样适应音节的发音。练[rɑ]和[ɑrɑ]，检验音节末的辅音的方式也是发一个元音，看它是否呈现出相同的听感。</p>
+<p>‍</p>
+<p>另外，在学习外语时参考母语也是有必要的。不是说将母语的映射迁到外语，而是通过「 对比」的方法考察不同文化之间的表意(音)结构<sup id="fnref:3"><a href="#fn:3" class="footnote-ref" role="doc-noteref">3</a></sup>。谈到为什么这么做时，我们不会引用弗雷格、维特根斯坦，从而上升到语言哲学的层次：光是能够发现结构之间的相似性就足以发挥作用、振奋人心了。</p>
+<p>作为参考，推荐阅读<a class="link" href="https://zhuanlan.zhihu.com/p/260660949"  target="_blank" rel="noopener"
+    >汉语拼音与国际音标对照表（简明表格版） - 知乎 (zhihu.com)</a>，以及各语言的正字法、音系wiki</p>
+<p>‍</p>
+<p>英语中的音系现象是：</p>
+<p><strong>清浊对立</strong></p>
+<p><strong>轻、重音</strong>（虽然对立的情况少，但重音弄错可能会让人听不懂）</p>
+<p><strong>连读(linking)</strong>
+辅音之后的元音是连续的，这与汉语中的音节直接的断裂（有喉音[ʔ]）有区别。</p>
+<p>另外，法语中的 <strong>加连音(liaison)</strong> 是指， 一些掉了的音的重新出现的现象。比如pas[pɑ]在连元音（比如encore）后恢复成[pɑz],
+在英语中比如$one \to a \to an$</p>
+<p>‍</p>
+<p>还有的比如[t,d,s]遇到[j]时候的颚化[t͡ʃ]；GA和RP之间有一些区别，比如GA中的[ɹ]在英国南部中掉落。</p>
+<p>未来的我：什么举例嘛，完全就是只写了些特点而不谈方法嘛（大嘘）</p>
+<div class="footnotes" role="doc-endnotes">
+<hr>
+<ol>
+<li id="fn:1">
+<p>据说是以最符合法国人音系的标准指定的。&#160;<a href="#fnref:1" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:2">
+<p>在英语语流中，几乎所有非重音节中的元音都会弱化成[ə]，算是元音音系广的代价吧。&#160;<a href="#fnref:2" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+<li id="fn:3">
+<p>没错，有一项附属学科叫「 比较语言学」&#160;<a href="#fnref:3" class="footnote-backref" role="doc-backlink">&#x21a9;&#xfe0e;</a></p>
+</li>
+</ol>
+</div>
+
+</section>
+
+
+    <footer class="article-footer">
+    
+
+    
+    <section class="article-copyright">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-copyright" width="24" height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+  <path stroke="none" d="M0 0h24v24H0z"/>
+  <circle cx="12" cy="12" r="9" />
+  <path d="M14.5 9a3.5 4 0 1 0 0 6" />
+</svg>
+
+
+
+        <span>Licensed under CC BY-NC-SA 4.0</span>
+    </section>
+    </footer>
+
+
+    
+        <link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.css"integrity="sha256-J&#43;iAE0sgH8QSz9hpcDxXIftnj65JEZgNhGcgReTTK9s="crossorigin="anonymous"
+            ><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/katex.min.js"integrity="sha256-InsNdER1b2xUewP&#43;pKCUJpkhiqwHgqiPXDlIk7GzBu4="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/katex@0.15.6/dist/contrib/auto-render.min.js"integrity="sha256-y39Mpg7V3D4lhBX4x6O0bUqTV4pSrfgwEfGKfxkOdgI="crossorigin="anonymous"
+                defer
+                >
+            </script><script>
+    window.addEventListener("DOMContentLoaded", () => {
+        renderMathInElement(document.querySelector(`.article-content`), {
+            delimiters: [
+                { left: "$$", right: "$$", display: true },
+                { left: "$", right: "$", display: false },
+                { left: "\\(", right: "\\)", display: false },
+                { left: "\\[", right: "\\]", display: true }
+            ],
+            ignoredClasses: ["gist"]
+        });})
+</script>
+    
+</article>
+
+    
+
+    
+
+     
+    
+        
+    <div class="disqus-container">
+    <div id="disqus_thread"></div>
+<script type="application/javascript">
+    window.disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "hugo-theme-stack" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</div>
+
+<style>
+    .disqus-container {
+        background-color: var(--card-background);
+        border-radius: var(--card-border-radius);
+        box-shadow: var(--shadow-l1);
+        padding: var(--card-padding);
+    }
+</style>
+
+<script>
+    window.addEventListener('onColorSchemeChange', (e) => {
+        if (typeof DISQUS == 'object') {
+            DISQUS.reset({
+                reload: true
+            });
+        }
+    })
+</script>
+
+    
+
+    <footer class="site-footer">
+    <section class="copyright">
+        &copy; 
+        
+        2023 迷の小屋
+    </section>
+    
+    <section class="powerby">
+        Built with <a href="https://gohugo.io/" target="_blank" rel="noopener">Hugo</a> <br />
+        Theme <b><a href="https://github.com/CaiJimmy/hugo-theme-stack" target="_blank" rel="noopener" data-version="3.16.0">Stack</a></b> designed by <a href="https://jimmycai.com" target="_blank" rel="noopener">Jimmy</a>
+    </section>
+</footer>
+
+
+    
+<div class="pswp" tabindex="-1" role="dialog" aria-hidden="true">
+
+    
+    <div class="pswp__bg"></div>
+
+    
+    <div class="pswp__scroll-wrap">
+
+        
+        <div class="pswp__container">
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+            <div class="pswp__item"></div>
+        </div>
+
+        
+        <div class="pswp__ui pswp__ui--hidden">
+
+            <div class="pswp__top-bar">
+
+                
+
+                <div class="pswp__counter"></div>
+
+                <button class="pswp__button pswp__button--close" title="Close (Esc)"></button>
+
+                <button class="pswp__button pswp__button--share" title="Share"></button>
+
+                <button class="pswp__button pswp__button--fs" title="Toggle fullscreen"></button>
+
+                <button class="pswp__button pswp__button--zoom" title="Zoom in/out"></button>
+
+                
+                
+                <div class="pswp__preloader">
+                    <div class="pswp__preloader__icn">
+                        <div class="pswp__preloader__cut">
+                            <div class="pswp__preloader__donut"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="pswp__share-modal pswp__share-modal--hidden pswp__single-tap">
+                <div class="pswp__share-tooltip"></div>
+            </div>
+
+            <button class="pswp__button pswp__button--arrow--left" title="Previous (arrow left)">
+            </button>
+
+            <button class="pswp__button pswp__button--arrow--right" title="Next (arrow right)">
+            </button>
+
+            <div class="pswp__caption">
+                <div class="pswp__caption__center"></div>
+            </div>
+
+        </div>
+
+    </div>
+
+</div><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.js"integrity="sha256-ePwmChbbvXbsO02lbM3HoHbSHTHFAeChekF1xKJdleo="crossorigin="anonymous"
+                defer
+                >
+            </script><script 
+                src="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe-ui-default.min.js"integrity="sha256-UKkzOn/w1mBxRmLLGrSeyB4e1xbrp4xylgAWb3M42pU="crossorigin="anonymous"
+                defer
+                >
+            </script><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/default-skin/default-skin.min.css"crossorigin="anonymous"
+            ><link 
+                rel="stylesheet" 
+                href="https://cdn.jsdelivr.net/npm/photoswipe@4.1.3/dist/photoswipe.min.css"crossorigin="anonymous"
+            >
+
+            </main>
+        </div>
+        <script 
+                src="https://cdn.jsdelivr.net/npm/node-vibrant@3.1.6/dist/vibrant.min.js"integrity="sha256-awcR2jno4kI5X0zL8ex0vi2z&#43;KMkF24hUW8WePSA9HM="crossorigin="anonymous"
+                
+                >
+            </script><script type="text/javascript" src="/ts/main.js" defer></script>
+<script>
+    (function () {
+        const customFont = document.createElement('link');
+        customFont.href = "https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap";
+
+        customFont.type = "text/css";
+        customFont.rel = "stylesheet";
+
+        document.head.appendChild(customFont);
+    }());
+</script>
+
+    </body>
+</html>
